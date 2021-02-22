@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Desktop/untitled/Player.h
+
+/home/petko/Desktop/untitled/main.cpp
+iostream
+-
+Player.h
+/home/petko/Desktop/untitled/Player.h
+Player.h
+/home/petko/Desktop/untitled/Player.h
+
