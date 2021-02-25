@@ -18,15 +18,12 @@ void print_books(Book *first, Book *last)
 
 Book *remove_book(Book *first, Book *last, const char *isbn)
 {
-    Book *book{first};
     Book *last_book = (last - 1);
-    for (; book != last; ++book)
+    for (Book *book{first}; book != last; ++book)
     {
         if (!std::strcmp(book->isbn, isbn))
         {
-            std::strcpy(book->title, last_book->title);
-            std::strcpy(book->author, last_book->author);
-            std::strcpy(book->isbn, last_book->isbn);
+            *book = *last_book;
             return last_book;
         }
     }
