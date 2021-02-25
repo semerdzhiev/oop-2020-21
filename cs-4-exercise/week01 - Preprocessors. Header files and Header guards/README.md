@@ -16,10 +16,10 @@
 - Function-like macros.
 
 ### Conditional compilation
-- <b>#ifdef
-- <b>#ifndef
-- <b>#endif
-- <b>#if 0
+- <b>#ifdef</b>
+- <b>#ifndef</b>
+- <b>#endif</b>
+- <b>#if 0</b>
 ```
 #include <iostream>
 
