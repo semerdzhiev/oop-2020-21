@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DynamiArrExample.dir/main.cpp.o CMakeFiles/DynamiArrExample.dir/DynamicArray.cpp.o  -o DynamiArrExample 

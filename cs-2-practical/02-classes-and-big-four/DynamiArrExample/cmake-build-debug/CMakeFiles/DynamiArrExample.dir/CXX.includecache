@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/playground/DynamiArrExample/DynamicArray.cpp
+DynamicArray.h
+/home/petko/workspace/playground/DynamiArrExample/DynamicArray.h
+
+/home/petko/workspace/playground/DynamiArrExample/DynamicArray.h
+iostream
+-
+
+/home/petko/workspace/playground/DynamiArrExample/main.cpp
+iostream
+-
+DynamicArray.h
+/home/petko/workspace/playground/DynamiArrExample/DynamicArray.h
+
