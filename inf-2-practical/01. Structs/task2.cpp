@@ -2,10 +2,11 @@
 
 struct ComplexNumber 
 {
-    double real, imaginary;
+    double real{};
+    double imaginary{};
 };
 
-ComplexNumber sum(ComplexNumber z1, ComplexNumber z2) 
+ComplexNumber sum(const ComplexNumber& z1, const ComplexNumber& z2) 
 {
     ComplexNumber result;
     result.real = z1.real + z2.real;
@@ -17,7 +18,7 @@ ComplexNumber sum(ComplexNumber z1, ComplexNumber z2)
 // = a1a2 + ia1b2 + ib1a2 + (i^2)b1b2 =
 // = a1a2 - b1b2 + i(a1b2 + a2b1)
 
-ComplexNumber product(ComplexNumber z1, ComplexNumber z2) 
+ComplexNumber product(const ComplexNumber& z1, const ComplexNumber& z2) 
 {
     ComplexNumber result;
     result.real = z1.real*z2.real - z1.imaginary*z2.imaginary;
@@ -25,7 +26,7 @@ ComplexNumber product(ComplexNumber z1, ComplexNumber z2)
     return result;    
 }
 
-void print(ComplexNumber z) 
+void print(const ComplexNumber& z) 
 {
     std:: cout << "Number: " << z.real << " + " << z.imaginary << "i" << std::endl;
 } //TODO: if negative?
