@@ -28,8 +28,15 @@ ComplexNumber product(const ComplexNumber& z1, const ComplexNumber& z2)
 
 void print(const ComplexNumber& z) 
 {
-    std:: cout << "Number: " << z.real << " + " << z.imaginary << "i" << std::endl;
-} //TODO: if negative?
+    std:: cout << "Number: " << z.real << " + ";
+  
+    if (z.imaginary > 0)
+        std:: cout << z.imaginary << "i" << std::endl;
+    else if (z.imaginary < 0)
+        std:: cout << "(" << z.imaginary << ")" << "i" << std::endl;
+    else 
+        std:: cout << 0;
+} 
 
 int main() 
 {
