@@ -48,6 +48,7 @@ private:
     char m_name[50]{};
     unsigned m_age{};
 };
+```
 
 ```c++
 // GOOD
