@@ -1,5 +1,8 @@
 #pragma once
 #include "Book.h"
+#include "Utils.h"
+
+
 struct Library
 {
 	size_t size;
@@ -18,5 +21,10 @@ struct Library
 
 	Book& getBestBook();
 
+	void printBookByPrice(priceFilter pf);
+
+	void printBookWithLowestPrice();
+
+	void printBookWithHighestPrice();
 };
 

@@ -35,7 +35,7 @@ void Library::addBook() {
 void Library::printBooks() {
 
 	std::cout << "Print Books:\n";
-	for (int i = 0; i < this->size; i++) {
+	for (size_t i = 0; i < this->size; i++) {
 		this->books[i].print();
 	}
 }
@@ -47,7 +47,7 @@ void Library::freeMemory() {
 Book& Library::getBestBook() {
 	int maxSales = this->books[0].sales;
 	int pos = 0;
-	for (int i = 1; i < this->size; i++) {
+	for (size_t i = 1; i < this->size; i++) {
 		if (maxSales < this->books[i].sales) {
 			maxSales = this->books[i].sales;
 			pos = i;
@@ -56,3 +56,25 @@ Book& Library::getBestBook() {
 
 	return this->books[pos];
 }
+
+void Library::printBookByPrice(priceFilter pf) {
+	double price = this->books[0].price;
+	int pos = 0;
+	for (size_t i = 1; i < this->size; i++) {
+		if (pf(price, this->books[i].price)) {
+			price = this->books[i].price;
+			pos = i;
+		}
+	}
+
+	this->books[pos].print();
+}
+
+void Library::printBookWithLowestPrice() {
+	printBookByPrice(isSmaller);
+}
+
+void Library::printBookWithHighestPrice() {
+	printBookByPrice(isBigger);
+}
+
