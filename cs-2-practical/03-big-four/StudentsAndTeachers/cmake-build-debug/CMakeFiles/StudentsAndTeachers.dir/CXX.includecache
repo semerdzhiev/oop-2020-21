@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.h
+iostream
+-
+Student.h
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.h
+DynamicArray.h
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.h
+
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp
+DynamicArray.h
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.h
+Student.h
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.h
+Course.h
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.h
+
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.h
+iostream
+-
+
+/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.h
+

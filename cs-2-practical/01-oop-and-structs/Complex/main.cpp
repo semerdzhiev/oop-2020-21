@@ -9,5 +9,8 @@ int main() {
     print(res1);
     print(res2);
     print(Complex{-5,-2});
+
+    int b=2;
+    int *&a={};
     return 0;
 }
