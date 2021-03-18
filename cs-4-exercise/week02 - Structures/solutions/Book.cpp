@@ -38,7 +38,7 @@ void Book::print() {
 	std::cout << "Author: " << this->author << std::endl;
 	std::cout << "Genre: " << this->genre << std::endl;
 	std::cout << "Price: " << this->price << std::endl;
-	std::cout << "Sales: " << this->sales << std::endl;
+	std::cout << "Sales: " << this->sales << std::endl << std::endl;
 }
 
 void Book::freeMemory() {
