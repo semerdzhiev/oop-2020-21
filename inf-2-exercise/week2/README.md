@@ -2,8 +2,8 @@
 
 Линкове към неща от упражнението:
 
-- [линк към запис]
-- [линк към анкета]
+- [задачи в hackerrank]
+- [сайт с collab нещото]
 
-[линк към запис]: <https://drive.google.com/file/d/1pssHlJAZY2VWwL6d8o2lLc4UNCEqIQdD/view?usp=sharing>
-[линк към анкета]: <https://forms.gle/GjmiiXbapziRjLYU7>
+[задачи в hackerrank]: <https://www.hackerrank.com/contests/fmi-oop-hw-inf-group-2-2020-2021/challenges>
+[сайт с collab нещото]: <https://rextester.com/live/BGRAV43163>
