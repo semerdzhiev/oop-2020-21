@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o CMakeFiles/StudentsAndTeachers.dir/test.cpp.o CMakeFiles/StudentsAndTeachers.dir/catch2/catch.cpp.o  -o StudentsAndTeachers 

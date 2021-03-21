@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /var/lib/snapd/snap/clion/139/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /var/lib/snapd/snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /var/lib/snapd/snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
+RM = /var/lib/snapd/snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers
+CMAKE_SOURCE_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/StudentsAndTeachers.dir/depend.make
@@ -79,68 +79,68 @@ include CMakeFiles/StudentsAndTeachers.dir/flags.make
 
 CMakeFiles/StudentsAndTeachers.dir/main.cpp.o: CMakeFiles/StudentsAndTeachers.dir/flags.make
 CMakeFiles/StudentsAndTeachers.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/main.cpp.o -c /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/main.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp
 
 CMakeFiles/StudentsAndTeachers.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentsAndTeachers.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp > CMakeFiles/StudentsAndTeachers.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp > CMakeFiles/StudentsAndTeachers.dir/main.cpp.i
 
 CMakeFiles/StudentsAndTeachers.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentsAndTeachers.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp -o CMakeFiles/StudentsAndTeachers.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp -o CMakeFiles/StudentsAndTeachers.dir/main.cpp.s
 
 CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o: CMakeFiles/StudentsAndTeachers.dir/flags.make
 CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o: ../Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o -c /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp
 
 CMakeFiles/StudentsAndTeachers.dir/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentsAndTeachers.dir/Student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp > CMakeFiles/StudentsAndTeachers.dir/Student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp > CMakeFiles/StudentsAndTeachers.dir/Student.cpp.i
 
 CMakeFiles/StudentsAndTeachers.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentsAndTeachers.dir/Student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp -o CMakeFiles/StudentsAndTeachers.dir/Student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp -o CMakeFiles/StudentsAndTeachers.dir/Student.cpp.s
 
 CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o: CMakeFiles/StudentsAndTeachers.dir/flags.make
 CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o: ../DynamicArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o -c /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp
 
 CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp > CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp > CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.i
 
 CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp -o CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp -o CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.s
 
 CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o: CMakeFiles/StudentsAndTeachers.dir/flags.make
 CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o: ../Course.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o -c /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp
 
 CMakeFiles/StudentsAndTeachers.dir/Course.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentsAndTeachers.dir/Course.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp > CMakeFiles/StudentsAndTeachers.dir/Course.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp > CMakeFiles/StudentsAndTeachers.dir/Course.cpp.i
 
 CMakeFiles/StudentsAndTeachers.dir/Course.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentsAndTeachers.dir/Course.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp -o CMakeFiles/StudentsAndTeachers.dir/Course.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp -o CMakeFiles/StudentsAndTeachers.dir/Course.cpp.s
 
 CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o: CMakeFiles/StudentsAndTeachers.dir/flags.make
 CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o: ../RetiredTeacher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o -c /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp
 
 CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp > CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp > CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.i
 
 CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp -o CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp -o CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.s
 
 # Object files for target StudentsAndTeachers
 StudentsAndTeachers_OBJECTS = \
@@ -160,7 +160,7 @@ StudentsAndTeachers: CMakeFiles/StudentsAndTeachers.dir/Course.cpp.o
 StudentsAndTeachers: CMakeFiles/StudentsAndTeachers.dir/RetiredTeacher.cpp.o
 StudentsAndTeachers: CMakeFiles/StudentsAndTeachers.dir/build.make
 StudentsAndTeachers: CMakeFiles/StudentsAndTeachers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StudentsAndTeachers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StudentsAndTeachers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StudentsAndTeachers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/StudentsAndTeachers.dir/clean:
 .PHONY : CMakeFiles/StudentsAndTeachers.dir/clean
 
 CMakeFiles/StudentsAndTeachers.dir/depend:
-	cd /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug /home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug /home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/StudentsAndTeachers.dir/depend
 

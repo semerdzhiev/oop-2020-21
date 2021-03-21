@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StudentsAndTeachers">
-				<Option output="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/StudentsAndTeachers" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/StudentsAndTeachers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentsAndTeachers"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentsAndTeachers"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StudentsAndTeachers/fast">
-				<Option output="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/StudentsAndTeachers" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/StudentsAndTeachers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,41 +73,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentsAndTeachers/fast"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentsAndTeachers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Course.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Course.h">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.h">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.h">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/Student.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/Student.h">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp">
 			<Option target="StudentsAndTeachers"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/cs-2-practical/03-big-four/StudentsAndTeachers/CMakeLists.txt">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/03-big-four/StudentsAndTeachers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

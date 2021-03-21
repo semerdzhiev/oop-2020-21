@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StudentsAndTeachers"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StudentsAndTeachers">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/StudentsAndTeachers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentsAndTeachers"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StudentsAndTeachers/fast">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/StudentsAndTeachers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentsAndTeachers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Course.cpp">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Course.h">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/DynamicArray.cpp">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/DynamicArray.h">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/RetiredTeacher.cpp">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/RetiredTeacher.h">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Student.cpp">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Student.h">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/catch2/catch.cpp">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/catch2/catch.h">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/test.cpp">
+			<Option target="StudentsAndTeachers"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

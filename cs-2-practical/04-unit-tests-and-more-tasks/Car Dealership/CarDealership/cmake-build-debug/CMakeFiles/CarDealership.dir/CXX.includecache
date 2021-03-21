@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/Car Dealership/CarDealership/ManufactureDetails.cpp
+ManufactureDetails.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/Car Dealership/CarDealership/ManufactureDetails.h
+cstring
+-
+iostream
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/Car Dealership/CarDealership/ManufactureDetails.h
+

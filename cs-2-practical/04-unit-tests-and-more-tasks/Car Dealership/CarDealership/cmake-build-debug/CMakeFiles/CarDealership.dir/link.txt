@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CarDealership.dir/main.cpp.o CMakeFiles/CarDealership.dir/Car.cpp.o CMakeFiles/CarDealership.dir/EngineDetails.cpp.o CMakeFiles/CarDealership.dir/Dealership.cpp.o CMakeFiles/CarDealership.dir/ManufactureDetails.cpp.o CMakeFiles/CarDealership.dir/VisualDetails.cpp.o  -o CarDealership 
