@@ -1,0 +1,14 @@
+//
+// Created by petko on 21/03/2021.
+//
+
+#ifndef CARDEALERSHIP_MANIFACTUREDETAILS_H
+#define CARDEALERSHIP_MANIFACTUREDETAILS_H
+
+
+class ManifactureDetails {
+
+};
+
+
+#endif //CARDEALERSHIP_MANIFACTUREDETAILS_H
