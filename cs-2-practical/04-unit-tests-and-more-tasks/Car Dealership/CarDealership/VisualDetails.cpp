@@ -1,2 +1,0 @@
-#include "VisualDetails.h"
-

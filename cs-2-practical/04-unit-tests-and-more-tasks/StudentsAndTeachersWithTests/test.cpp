@@ -2,11 +2,12 @@
 #include "RetiredTeacher.h"
 #define CATCH_CONFIG_MAIN
 
-TEST_CASE("Array tests","[array]") {
+TEST_CASE("Dynamic Array tests","[array]") {
     DynamicArray<int> arr(2);
     SECTION("testes with empty array") {
         REQUIRE(arr.getSize()==0);
         REQUIRE(arr.remove(2)==false);
+        REQUIRE(arr.contains(89)==false);
     }
 
     arr.add(2);

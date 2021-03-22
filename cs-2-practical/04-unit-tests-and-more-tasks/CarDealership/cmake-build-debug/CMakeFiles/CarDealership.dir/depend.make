@@ -7,12 +7,8 @@ CMakeFiles/CarDealership.dir/Car.cpp.o: ../EngineDetails.h
 CMakeFiles/CarDealership.dir/Car.cpp.o: ../ManufactureDetails.h
 CMakeFiles/CarDealership.dir/Car.cpp.o: ../VisualDetails.h
 
-CMakeFiles/CarDealership.dir/Dealership.cpp.o: ../Car.h
 CMakeFiles/CarDealership.dir/Dealership.cpp.o: ../Dealership.cpp
 CMakeFiles/CarDealership.dir/Dealership.cpp.o: ../Dealership.h
-CMakeFiles/CarDealership.dir/Dealership.cpp.o: ../EngineDetails.h
-CMakeFiles/CarDealership.dir/Dealership.cpp.o: ../ManufactureDetails.h
-CMakeFiles/CarDealership.dir/Dealership.cpp.o: ../VisualDetails.h
 
 CMakeFiles/CarDealership.dir/EngineDetails.cpp.o: ../EngineDetails.cpp
 CMakeFiles/CarDealership.dir/EngineDetails.cpp.o: ../EngineDetails.h

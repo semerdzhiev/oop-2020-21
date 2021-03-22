@@ -93,11 +93,13 @@ void Course::printInformation() const {
     students.print();
 }
 
-void Course::enrolStudent(Student& _student) {
+bool Course::enrolStudent(Student& _student) {
     if(students.getSize()>=capacity) {
         std::cerr<<"Not enough space in course!\n";
+        return false;
     } else {
         students.add(_student);
+        return true;
     }
 }
 

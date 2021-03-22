@@ -166,6 +166,8 @@ std::ostream& operator<<(std::ostream& os, const DynamicArray<Student>& _arr){
     return os;
 }
 
+
 template class DynamicArray<Student>;
 template class DynamicArray<Course>;
 template class DynamicArray<int>;
+template class DynamicArray<double>;

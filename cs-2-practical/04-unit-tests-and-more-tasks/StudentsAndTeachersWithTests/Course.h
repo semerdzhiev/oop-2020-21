@@ -38,7 +38,7 @@ public:
 
 public:
     void printInformation() const;
-    void enrolStudent(Student& _student);
+    bool enrolStudent(Student& _student);
     void enrolStudents(const DynamicArray<Student>& _students);
 
 public:
