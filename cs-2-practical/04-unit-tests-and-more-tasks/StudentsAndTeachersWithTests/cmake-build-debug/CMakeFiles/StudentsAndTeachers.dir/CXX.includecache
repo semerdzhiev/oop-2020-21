@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Course.cpp
-Course.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Course.h
-cstring
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cstring
-
 /home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Course.h
 iostream
 -
@@ -20,23 +14,9 @@ Student.h
 DynamicArray.h
 /home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/DynamicArray.h
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/DynamicArray.cpp
-DynamicArray.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/DynamicArray.h
-Student.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Student.h
-Course.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/Course.h
-
 /home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/DynamicArray.h
 iostream
 -
-
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/RetiredTeacher.cpp
-RetiredTeacher.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/RetiredTeacher.h
-cstring
-/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/cstring
 
 /home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/StudentsAndTeachersWithTests/RetiredTeacher.h
 DynamicArray.h

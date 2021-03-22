@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/Car.h
+EngineDetails.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/EngineDetails.h
+ManufactureDetails.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/ManufactureDetails.h
+VisualDetails.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/VisualDetails.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/EngineDetails.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/ManufactureDetails.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/VisualDetails.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/main.cpp
+iostream
+-
+Car.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/Car.h
+EngineDetails.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/04-unit-tests-and-more-tasks/CarDealership/EngineDetails.h
+
