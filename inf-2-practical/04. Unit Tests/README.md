@@ -2,7 +2,7 @@
 
 [Запис от упражнението](https://drive.google.com/file/d/1c9d6xeEsdtJ5iBMIhN9L6DSDV58cJQOA/view?usp=sharing)
 
-[Catch2 files](https://github.com/semerdzhiev/oop-2020-21/tree/main/inf-2-practical/04.%20Unit%20Tests/catch2)
+[Catch2 files](https://github.com/semerdzhiev/oop-2020-21/tree/main/inf-2-practical/04.%20Unit%20Tests/Task1/tests/catch2)
 
 [Catch2 tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#top)
 
