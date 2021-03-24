@@ -40,4 +40,4 @@
 ## Задача 8:
 Напишете функиции, която отпечатва книгата с най-ниска цена и с най-висока цена(според подадена функция от по висок ред):
 
-	- void printBookByPrice(bool (* priceFilter) int);
+	void printBookByPrice(bool (* priceFilter) (doble, doble));
