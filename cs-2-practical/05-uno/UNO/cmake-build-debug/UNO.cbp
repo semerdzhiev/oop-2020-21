@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UNO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UNO">
+				<Option output="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/UNO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 UNO"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UNO/fast">
+				<Option output="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/UNO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 UNO/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files/Card.h">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files/Deck.h">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files/Game.h">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files/Player.h">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Card.cpp">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Deck.cpp">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Game.cpp">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Player.cpp">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/main.cpp">
+			<Option target="UNO"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/playground/UNO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

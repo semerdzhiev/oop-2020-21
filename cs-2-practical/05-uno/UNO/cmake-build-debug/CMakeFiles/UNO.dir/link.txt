@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/UNO.dir/Source_Files/Card.cpp.o CMakeFiles/UNO.dir/Source_Files/Deck.cpp.o CMakeFiles/UNO.dir/Source_Files/Game.cpp.o CMakeFiles/UNO.dir/Source_Files/Player.cpp.o CMakeFiles/UNO.dir/main.cpp.o  -o UNO 
