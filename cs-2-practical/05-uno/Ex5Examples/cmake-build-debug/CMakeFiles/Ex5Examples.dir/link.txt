@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Ex5Examples.dir/main.cpp.o  -o Ex5Examples 

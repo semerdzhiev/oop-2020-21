@@ -1,3 +1,3 @@
-/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/UNO.dir
+/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/UNO.dir

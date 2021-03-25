@@ -7,6 +7,5 @@ int main()
 {
 	Game UNO(4, 7);
 	UNO.play();
-
 	return 0;
 }

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/petko/workspace/FMI-Semester-6/playground/UNO/Header Files" 
+CXX_INCLUDES = -I"/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/Header Files" 
 

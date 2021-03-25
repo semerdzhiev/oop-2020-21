@@ -1,35 +1,36 @@
 #pragma once
+
 #include "Card.h"
 #include "Deck.h"
 #include <iostream>
 
+#define MAX_HAND_SIZE 10
+
 class Player {
 private:
-	Card* hand;
-	size_t MAX_HAND_SIZE; // Size of the array hand;
-	size_t handSize; // Cards currently in hand;
+    Card hand[MAX_HAND_SIZE];
+    unsigned short handSize; // Cards currently in hand;
 
 public:
-	Player();
-	Player(const unsigned short numOfCardsInHand);
-	~Player();
+    Player(unsigned short numOfCardsInHand = 3);
 
 public:
-	const size_t getHandSize() const;
-	const Card getCard(const size_t handSize) const;
+    size_t getHandSize() const;
+
+    const Card& getCard(unsigned short idx) const;
 
 private:
-	void create(const size_t idx);
-	Card* allocHand(const size_t MAX_HAND_SIZE);
-	void clean();
-	bool freeSpace(const size_t handSize); //Checks if there is free space in the hand for another card;
-	void removeCard(const size_t idx); //Removes a card from the hand;
-	const size_t chooseCard() const; //Returns the index of a card in hand;
-	bool increaseMaxHandSize();
+    void createHand(unsigned short handSize);
+
+    bool freeSpaceCheck(); //Checks if there is free space in the hand for another card;
+    void removeCard(unsigned short idx); //Removes a card from the hand;
+    unsigned short chooseCard() const; //Returns the index of a card in hand;
 
 public:
-	void drawCard(Deck& deck);
-	Card playCard();
-	void removeCard(const Card& card);
+    void drawCard(Deck &deck);
+
+    Card playCard();
+
+    void removeCard(const Card &card);
 
 };

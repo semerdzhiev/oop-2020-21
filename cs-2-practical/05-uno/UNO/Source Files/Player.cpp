@@ -1,118 +1,77 @@
 #include "Player.h"
 
-void Player::create(const size_t handSize)
-{
-	MAX_HAND_SIZE = 10;
-	if (handSize > MAX_HAND_SIZE)
-		MAX_HAND_SIZE = MAX_HAND_SIZE;
-	hand = allocHand(MAX_HAND_SIZE);
-	this->handSize = handSize;
-	if (!hand)
-		return;
-	for (size_t i = 0; i < handSize; i++)
-		hand[i].generateRandom();
+void Player::createHand(unsigned short _handSize) {
+    if (_handSize > MAX_HAND_SIZE){
+        std::cerr<<"Hand size is bigger then max hand size\n";
+        exit(1);
+    }
+    for (unsigned short i = 0; i < handSize; i++)
+        hand[i].generateRandom();
 }
 
-Card* Player::allocHand(const size_t MAX_HAND_SIZE)
-{
-	Card* newHand = new(std::nothrow) Card[MAX_HAND_SIZE];
-	if (!hand) {
-		std::cerr << "Memory not allocated for hand." << std::endl;
-		return nullptr;
-	}
-	return newHand;
+Player::Player(unsigned short _handSize) : handSize(_handSize) {
+    if (handSize > MAX_HAND_SIZE){
+        std::cerr<<"Hand size is bigger then max hand size\n";
+        exit(1);
+    }
+    createHand(handSize);
 }
 
-bool Player::freeSpace(const size_t handSize) { return (0 <= handSize && handSize < MAX_HAND_SIZE); }
 
-void Player::clean()
-{
-	delete[] hand;
+bool Player::freeSpaceCheck() {
+    return (0 <= handSize && handSize < MAX_HAND_SIZE);
 }
 
-Player::Player()
-{
-	create(3);
+size_t Player::getHandSize() const { return handSize; }
+
+const Card& Player::getCard(unsigned short idx) const {
+    if (idx < handSize)
+        return hand[idx];
+    std::cerr<<"Invalid index of cards array\n";
+    exit(1);
 }
 
-Player::Player(const unsigned short handSize)
-{
-	create(handSize);
+void Player::removeCard(unsigned short idx) {
+    if (idx < handSize) {
+        hand[idx]=hand[handSize-1];
+        handSize--;
+    } else {
+        std::cerr<<"Invalid index of cards array\n";
+        exit(1);
+    }
 }
 
-Player::~Player()
-{
-	clean();
+void Player::removeCard(const Card &card) {
+    for(unsigned short i=0;i<handSize;++i) {
+        if(card==hand[i]) {
+            removeCard(i);
+            return;
+        }
+    }
+    std::cerr << "Card not found." << std::endl;
 }
 
-const size_t Player::getHandSize() const { return handSize; }
-
-const Card Player::getCard(const size_t idx) const
-{
-	if (idx < handSize)
-		return hand[idx];
-	Card a; //Invalid card by default;
-	return a;
+unsigned short Player::chooseCard() const {
+    std::cout << "Pick a card: ";
+    unsigned short choice;
+    do {
+        std::cin >> choice;
+        if (choice >= handSize)
+            std::cerr << "Invalid choice." << std::endl;
+    } while (choice >= handSize);
+    return choice;
 }
 
-void Player::removeCard(const size_t idx)
-{
-	for (size_t i = idx; i < handSize - 1; i++)
-		hand[i] = hand[i + 1];
-	handSize--;
+void Player::drawCard(Deck &deck) {
+    if (!freeSpaceCheck())
+        removeCard(chooseCard());
+    hand[handSize++] = deck.topCard();
 }
 
-void Player::removeCard(const Card& card)
-{
-	size_t idx = 0;
-	while (card != hand[idx])
-		idx++;
-	if (idx < handSize) {
-		removeCard(idx);
-		return;
-	}
-	std::cerr << "Card not found." << std::endl;
-}
-
-const size_t Player::chooseCard() const
-{
-	std::cout << "Pick a card: ";
-	size_t choice;
-	do {
-		std::cin >> choice;
-		if (choice >= handSize)
-			std::cerr << "Invalid choice." << std::endl;
-	} while (choice >= handSize);
-	return choice;
-}
-
-bool Player::increaseMaxHandSize()
-{
-	if (handSize >= MAX_HAND_SIZE) {
-		MAX_HAND_SIZE *= 2;
-		Card* newHand = allocHand(MAX_HAND_SIZE);
-		if (!newHand)
-			return false;
-		for (size_t i = 0; i < handSize; i++)
-			newHand[i] = hand[i];
-		clean();
-		hand = newHand;
-	}
-	return true;
-}
-
-void Player::drawCard(Deck& deck)
-{
-	if (!freeSpace(handSize))
-		removeCard(chooseCard());
-	hand[handSize++] = deck.topCard();
-	if (!increaseMaxHandSize())
-		std::cerr << "Hand size not increased." << std::endl;
-}
-
-Card Player::playCard()
-{
-	const size_t choice = chooseCard();
-	Card card(hand[choice]);
-	return card;
+Card Player::playCard() {
+    unsigned short choice = chooseCard();
+    Card res = hand[choice];
+    hand[choice] = hand[handSize-1];
+    handSize--;
+    return res;
 }

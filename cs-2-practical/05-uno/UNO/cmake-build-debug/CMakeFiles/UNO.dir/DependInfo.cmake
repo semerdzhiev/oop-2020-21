@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Card.cpp" "/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Card.cpp.o"
-  "/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Deck.cpp" "/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Deck.cpp.o"
-  "/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Game.cpp" "/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Game.cpp.o"
-  "/home/petko/workspace/FMI-Semester-6/playground/UNO/Source Files/Player.cpp" "/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Player.cpp.o"
-  "/home/petko/workspace/FMI-Semester-6/playground/UNO/main.cpp" "/home/petko/workspace/FMI-Semester-6/playground/UNO/cmake-build-debug/CMakeFiles/UNO.dir/main.cpp.o"
+  "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/Source Files/Card.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Card.cpp.o"
+  "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/Source Files/Deck.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Deck.cpp.o"
+  "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/Source Files/Game.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Game.cpp.o"
+  "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/Source Files/Player.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/UNO.dir/Source_Files/Player.cpp.o"
+  "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/main.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/05-uno/UNO/cmake-build-debug/CMakeFiles/UNO.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
