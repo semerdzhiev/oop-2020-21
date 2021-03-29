@@ -1,4 +1,4 @@
-#include "List.h"
-#include<iostream>
+//
+// Created by petko on 29/03/2021.
+//
 
-using I = LinkedListIterator;
