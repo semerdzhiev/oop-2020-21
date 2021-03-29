@@ -35,11 +35,12 @@ void Game::deckHasEnded() {
     if (currentCard<0) {
         deck = onTheField;
         currentCard = deck.getSize() - 1;
+        onTheField = Deck(deck.getSize());
     }
 }
 
 bool Game::hasPlayableCards(const Player &player) {
-    for (size_t i = 0; i < player.getHandSize(); i++)
+    for (unsigned short i = 0; i < player.getHandSize(); i++)
         if (cardIsValid(player.getCard(i)))
             return true;
     return false;
@@ -55,7 +56,7 @@ bool Game::cardIsValid(const Card &card) const {
     return false;
 }
 
-size_t Game::nextPlayer(const size_t player_idx) {
+unsigned short Game::nextPlayer(unsigned short player_idx) {
     if (reverse) {
         if (player_idx - 1 >= playerCount)
             return playerCount - 1;
@@ -66,11 +67,11 @@ size_t Game::nextPlayer(const size_t player_idx) {
     return player_idx + 1;
 }
 
-void Game::changeColor(Card &card) {
+void Game::changeColor(Card& card) {
     int choice;
     do {
-        system("cls");
-        std::cout << "Please choose a color:\n"
+        system("cls"); //Is this working?
+        std::cout << "Please choose a card:\n"
                   << "0. Red\n"
                   << "1. Blue\n"
                   << "2. Green\n"
@@ -78,15 +79,16 @@ void Game::changeColor(Card &card) {
         std::cin >> choice;
         if (choice < 0 || choice > 3) {
             std::cerr << "Invalid choice." << std::endl;
-            system("pause");
+            system("pause"); // And this?
         }
     } while (choice < 0 || choice > 3);
     card.changeColor(choice);
 }
 
-size_t Game::specialCard(Card &card, size_t player_idx) {
+unsigned short Game::specialCard(Card &card, unsigned short player_idx) {
     if (card.getNumber() == 10) { //Reverse;
-        reverse ? reverse = false : reverse = true;
+        reverse = !reverse;
+//        reverse ? reverse = false : reverse = true;
     } else if (card.getNumber() == 11) { // +4;
         player_idx = nextPlayer(player_idx);
         for (short i = 0; i < 4; i++) {

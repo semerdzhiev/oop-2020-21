@@ -28,11 +28,11 @@ private:
 
     void deckHasEnded();
 
-    size_t specialCard(Card &card, unsigned short player_idx);
+    unsigned short specialCard(Card &card, unsigned short player_idx);
 
-    size_t nextPlayer(unsigned short player_idx);
+    unsigned short nextPlayer(unsigned short player_idx);
 
-    void changeColor(COLOR color);
+    void changeColor(Card& card);
 
 public:
     const Player& getPlayer(unsigned short idx) const;

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/ExplicitExample/main.cpp
+iostream
+-
+cstring
+-
+

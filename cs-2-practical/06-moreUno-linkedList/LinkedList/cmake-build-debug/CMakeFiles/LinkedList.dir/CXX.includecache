@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp
+List.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
+iostream
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
+cstdio
+-
+Node.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+ListIterator.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.h
+Node.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+
