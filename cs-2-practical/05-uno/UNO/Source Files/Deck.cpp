@@ -9,8 +9,11 @@ void Deck::create(size_t deckSize) {
         std::cerr << "Deck not allocated" << std::endl;
         exit(1);
     }
-    for (size_t i = 0; i < deckSize; i++)
-        deck[i].generateRandom();
+    while(deck[deckSize-1].getNumber()>9) {
+        deck[deckSize-1].generateRandom();
+    }
+//    for (size_t i = 0; i < deckSize; i++)
+//        deck[i].generateRandom();
 }
 
 Deck::Deck(size_t deckSize) {

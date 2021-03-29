@@ -1,4 +1,2 @@
-//
-// Created by petko on 29/03/2021.
-//
-
+#include "Node.h"
+Node::Node(int _data, Node *_next):data(_data),next(_next) {}

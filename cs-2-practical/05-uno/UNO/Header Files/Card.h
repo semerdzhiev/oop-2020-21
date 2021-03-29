@@ -2,6 +2,11 @@
 
 #include <iostream>
 
+#define REVERSE 10
+#define ADD4 11
+#define CHANGECOLOR 12
+#define SKIP 13
+
 enum class COLOR {
     UNKNOWN = -1,
     RED,
@@ -9,6 +14,7 @@ enum class COLOR {
     GREEN,
     YELLOW
 };
+
 
 const COLOR UNKNOWN_COLOR = COLOR::UNKNOWN;
 #define DEFAULT_NUMBER 0

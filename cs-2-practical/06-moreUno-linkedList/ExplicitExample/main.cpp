@@ -6,7 +6,7 @@ private:
     char *name;
     bool sex; //0-man 1-woman
 public:
-    A(const char *_name) : sex(false) {
+     explicit A(const char *_name) : sex(false) {
         name = new(std::nothrow) char[strlen(_name)];
         if (!name) {
             std::cerr << "Error!\n";
@@ -15,7 +15,7 @@ public:
         strcpy(name, _name);
     }
 
-    A(bool _b) : sex(_b) {
+     explicit A(bool _b) : sex(_b) {
         name = new(std::nothrow) char[8];
         if (!name) {
             std::cerr << "Error!\n";
@@ -39,13 +39,15 @@ void printInfo(const A &a) {
 }
 
 int main() {
-    A a = true;
-    A b = "Pesho";
-    a.printSex();
-    b.printName();
-    printInfo(false);
-    printInfo("Ivan");
-    printInfo(a);
-    printInfo(b);
+//    A a = true;
+//    A b = "Pesho";
+//    a.printSex();
+//    a.printName();
+//    b.printName();
+//
+//    printInfo(false);
+//    printInfo("Ivan");
+//    printInfo(a);
+//    printInfo(b);
     return 0;
 }

@@ -11,7 +11,7 @@ private:
     Player *players;
     Deck deck;
     Deck onTheField;
-    unsigned short currentCard; //Holds the index of the current card on the field;
+    short currentCard; //Holds the index of the current card on the field;
     bool reverse; //Reverse the play order;
 
 public:
@@ -35,9 +35,9 @@ private:
     void changeColor(Card& card);
 
 public:
-    const Player& getPlayer(unsigned short idx) const;
+    Player& getPlayer(unsigned short idx) const;
 
-    bool turn(Player &player, size_t &i); //i keeps track of the player whose turn it is; //Returns true if player wins;
+    bool turn(Player &player, unsigned short &i); //i keeps track of the player whose turn it is; //Returns true if player wins;
     bool isWinner(const Player &player);
 
     void printGame(const Player &player) const;

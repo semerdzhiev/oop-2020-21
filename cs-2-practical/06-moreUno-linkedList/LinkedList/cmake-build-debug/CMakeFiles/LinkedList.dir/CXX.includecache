@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp
-List.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
-iostream
--
-
 /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
 cstdio
 -
@@ -25,4 +19,10 @@ Node.h
 /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
 
 /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/main.cpp
+iostream
+-
+List.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
 

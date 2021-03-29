@@ -5,14 +5,12 @@
 class LinkedListIterator {
 private:
     Node *ptr;
-
     friend class List;
 
 public:
-
     using I = LinkedListIterator;
 
-    LinkedListIterator(Node *p = nullptr);
+    explicit LinkedListIterator(Node *p = nullptr);
 
     I next() const;
 

@@ -71,7 +71,7 @@ void Player::drawCard(Deck &deck) {
 Card Player::playCard() {
     unsigned short choice = chooseCard();
     Card res = hand[choice];
-    hand[choice] = hand[handSize-1];
-    handSize--;
+    //hand[choice] = hand[handSize-1];
+    //handSize--;
     return res;
 }
