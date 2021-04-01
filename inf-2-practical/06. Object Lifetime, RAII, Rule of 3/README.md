@@ -1,5 +1,7 @@
 # Object Lifetime, RAII, Rule of 3
 
+[Запис от упражнението](https://drive.google.com/file/d/1wsYRZpfJHwDAMe_3P8_i9o2dh-7s7ynp/view?usp=sharing)
+
 ## Note about assert
 `assert` е макрос, чиято дефиниция зависи от друг макрос - `NDEBUG`. Ако `NDEBUG` е дефиниран, `assert` не прави нищо. Тоест, `assert` прави проверки само когато сме в debug mode. Целта на всички assertion-и които правим е да подсигурим, че кода ни не прави "забранените" неща, дефинирани в assertion-ите. Тези проверки са ни нужни само по време на разработка, тъй като се очаква, че release build-а ни е bug free, а допълнтелни проверки само биха го забавяли излишно. 
 [assert on cppreference](https://en.cppreference.com/w/cpp/error/assert)  
