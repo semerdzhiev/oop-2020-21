@@ -50,6 +50,7 @@ private:
   - Destructor
   - Copy Constructor
   - Copy Assignment Operator
+  
   то *най-вероятно* трябва да дефинира (или трие) и трите. 
 
 ## Rule of 0
