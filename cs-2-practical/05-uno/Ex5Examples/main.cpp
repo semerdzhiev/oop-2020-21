@@ -35,14 +35,14 @@ void f(const B &b) {
 
 int main() {
     B b(5);
-    std::cout << b.getN();
+    std::cout << b.getN()<<'\n';
 
     B* pointer;
     {
         B *n= new B(9);
         pointer=n;
     }
-    std::cout<<pointer->getN();
+    std::cout<<pointer->getN()<<'\n';
     delete pointer;
     return 0;
 }

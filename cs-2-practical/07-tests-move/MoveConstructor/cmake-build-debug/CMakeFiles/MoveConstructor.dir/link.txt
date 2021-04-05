@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MoveConstructor.dir/main.cpp.o  -o MoveConstructor 

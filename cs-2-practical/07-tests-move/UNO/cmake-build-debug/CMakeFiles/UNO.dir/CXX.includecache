@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Header Files/Card.h
+iostream
+-
+
+../Header Files/Deck.h
+iostream
+-
+Card.h
+../Header Files/Card.h
+
+../Header Files/Game.h
+iostream
+-
+Card.h
+../Header Files/Card.h
+Deck.h
+../Header Files/Deck.h
+Player.h
+../Header Files/Player.h
+
+../Header Files/Player.h
+Card.h
+../Header Files/Card.h
+Deck.h
+../Header Files/Deck.h
+iostream
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Card.cpp
+Card.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Card.h
+iostream
+-
+cstdlib
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Deck.cpp
+Deck.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Deck.h
+iostream
+-
+algorithm
+-
+random
+-
+chrono
+-
+exception
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Game.cpp
+Game.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Game.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Player.cpp
+Player.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Source Files/Player.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/main.cpp
+Game.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/07-tests-move/UNO/Game.h
+

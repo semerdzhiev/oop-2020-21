@@ -1,4 +1,4 @@
-# Install script for directory: /home/petko/workspace/FMI-Semester-6/playground/Ex5Examples
+# Install script for directory: /home/petko/workspaces/oop-2020-21/cs-2-practical/05-uno/Ex5Examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/petko/workspace/FMI-Semester-6/playground/Ex5Examples/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/petko/workspaces/oop-2020-21/cs-2-practical/05-uno/Ex5Examples/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

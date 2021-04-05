@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/workspace/FMI-Semester-6/playground/Ex5Examples/main.cpp" "/home/petko/workspace/FMI-Semester-6/playground/Ex5Examples/cmake-build-debug/CMakeFiles/Ex5Examples.dir/main.cpp.o"
+  "/home/petko/workspaces/oop-2020-21/cs-2-practical/05-uno/Ex5Examples/main.cpp" "/home/petko/workspaces/oop-2020-21/cs-2-practical/05-uno/Ex5Examples/cmake-build-debug/CMakeFiles/Ex5Examples.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
