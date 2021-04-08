@@ -17,7 +17,7 @@
   - Move Constructor
   - Move Assignment Operator
   
-  то *най-вероятно* трябва да дефинира (или трие) и трите. 
+  то *най-вероятно* трябва да дефинира (или трие) и петте. 
 
 ## Exception safety 
 - No throw - Никога не хвърляме изключения. Стандартната библиотека очаква [noexcept](https://en.cppreference.com/w/cpp/language/exceptions) да са деструкторите, move constructor & assignment operator, swap и всички функции, които се използват в тях. 
