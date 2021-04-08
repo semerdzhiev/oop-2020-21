@@ -2,6 +2,10 @@
 
 [Запис от упражнението](https://drive.google.com/file/d/1kzcICxG3r4dLUFd5QtBBrJTY7O7vRfWe/view?usp=sharing)
 
+## Lvalues and Rvalues
+
+[Understanding the meaning of lvalues and rvalues in C++](https://www.internalpointers.com/post/understanding-meaning-lvalues-and-rvalues-c)
+
 ## Move semantics
 [std::move](https://en.cppreference.com/w/cpp/utility/move)
 
