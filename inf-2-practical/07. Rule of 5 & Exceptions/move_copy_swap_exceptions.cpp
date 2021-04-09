@@ -129,9 +129,9 @@ public:
 
     Beerhouse(Beerhouse &&other)
     {
-        std::move(other.beers);
-        std::move(other.count);
-        std::move(other.capacity);
+        beers = std::move(other.beers);
+        count = std::move(other.count);
+        capacity = std::move(other.capacity);
     }
 
     Beerhouse &operator=(Beerhouse &&other) //move & swap
