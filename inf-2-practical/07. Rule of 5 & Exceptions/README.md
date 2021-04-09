@@ -49,7 +49,7 @@ Cons:
 ```c++
 try
 {
-  // call something that possiblly throws an error
+  // call something that possiblly throws an exception
 }
 catch(exception_type_here& e) 
 {
