@@ -24,8 +24,8 @@ private:
     void move(Beer &&other)
     {
         brand = std::move(other.brand);
-        abv = std::move(other.abv);
-        volume = std::move(other.volume);
+        abv = other.abv;
+        volume = other.volume;
     }
 
 public:
@@ -130,8 +130,8 @@ public:
     Beerhouse(Beerhouse &&other)
     {
         beers = std::move(other.beers);
-        count = std::move(other.count);
-        capacity = std::move(other.capacity);
+        count = other.count;
+        capacity = other.capacity;
     }
 
     Beerhouse &operator=(Beerhouse &&other) //move & swap
