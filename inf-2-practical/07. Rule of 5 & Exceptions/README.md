@@ -2,6 +2,10 @@
 
 [Запис от упражнението](https://drive.google.com/file/d/1kzcICxG3r4dLUFd5QtBBrJTY7O7vRfWe/view?usp=sharing)
 
+## Lvalues and Rvalues
+
+[Understanding the meaning of lvalues and rvalues in C++](https://www.internalpointers.com/post/understanding-meaning-lvalues-and-rvalues-c)
+
 ## Move semantics
 [std::move](https://en.cppreference.com/w/cpp/utility/move)
 
@@ -17,7 +21,7 @@
   - Move Constructor
   - Move Assignment Operator
   
-  то *най-вероятно* трябва да дефинира (или трие) и трите. 
+  то *най-вероятно* трябва да дефинира (или трие) и петте. 
 
 ## Exception safety 
 - No throw - Никога не хвърляме изключения. Стандартната библиотека очаква [noexcept](https://en.cppreference.com/w/cpp/language/exceptions) да са деструкторите, move constructor & assignment operator, swap и всички функции, които се използват в тях. 
@@ -45,7 +49,7 @@ Cons:
 ```c++
 try
 {
-  // call something that possiblly throws an error
+  // call something that possiblly throws an exception
 }
 catch(exception_type_here& e) 
 {
