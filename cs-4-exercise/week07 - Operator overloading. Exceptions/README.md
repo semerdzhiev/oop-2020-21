@@ -39,7 +39,7 @@ std::istream& operator>> (std::istream &in, <Class_name> &class) {
 
 ### Overloading operators using member functions
 
---  <b>The following rules of thumb can help you determine which form is best for a given situation:
+--  <b>The following rules of thumb can help you determine which form is best for a given situation:</b>
 
 - If you’re overloading assignment (=), subscript ([]), function call (()), or member selection (->), do so as a member function.
 - If you’re overloading a unary operator, do so as a member function.
