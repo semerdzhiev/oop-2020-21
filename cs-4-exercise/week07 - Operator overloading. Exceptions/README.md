@@ -43,7 +43,7 @@ std::istream& operator>> (std::istream &in, <Class_name> &class) {
 
 - If you’re overloading assignment (=), subscript ([]), function call (()), or member selection (->), do so as a member function.
 - If you’re overloading a unary operator, do so as a member function.
--If you’re overloading a binary operator that does not modify its left operand (e.g. operator+), do so as a normal function (preferred) or friend function.
+- If you’re overloading a binary operator that does not modify its left operand (e.g. operator+), do so as a normal function (preferred) or friend function.
 - If you’re overloading a binary operator that modifies its left operand, but you can’t modify the definition of the left operand (e.g. operator<<, which has a left operand of type ostream), do so as a normal function (preferred) or friend function.
 - If you’re overloading a binary operator that modifies its left operand (e.g. operator+=), and you can modify the definition of the left operand, do so as a member function.
 
