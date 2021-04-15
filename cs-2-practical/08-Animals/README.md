@@ -1,5 +1,3 @@
-[Запис](https://drive.google.com/file/d/1eQ_SBp0VQiVWEpZ0PkllJFSOfiwT5tTk/view?usp=sharing)
-
 ## Animal Family
 Имаме клас Семейство Животни, в който пазим името на семейтвото и броя членове.
 
