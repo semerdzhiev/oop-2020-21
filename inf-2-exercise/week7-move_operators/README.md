@@ -16,4 +16,4 @@
 - advanced: направете колекцията сортиране по ЕГН - променете съответните функции за добавяне, създаване и търсене (двоично търсене е удачно за сортирана колекция)
 
 [запис]: <https://drive.google.com/file/d/1sqf5t7PczgdgP3Oy1rUNJzODMBJv48jQ/view?usp=sharing>
-[презентация]: <https://docs.google.com/presentation/d/17jmdBy1GCzXxLpqbAdXyghIBqnDnyDeAWUGoDyx2_Pw/edit?usp=sharing>
+[презентация]: <https://docs.google.com/presentation/d/14tSGjFuA2GB6hWcxF9Q-KvNpQG0tWF2YoqUdWWePAYE/edit?usp=sharing>
