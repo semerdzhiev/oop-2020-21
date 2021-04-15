@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/test.dir/Tests/main.cpp.o CMakeFiles/test.dir/Catch2/catch2.cpp.o CMakeFiles/test.dir/Sources/AnimalFamily.cpp.o CMakeFiles/test.dir/Sources/Fauna.cpp.o CMakeFiles/test.dir/Sources/Planet.cpp.o CMakeFiles/test.dir/Sources/Zoo.cpp.o -o test 

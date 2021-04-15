@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/animals.dir/main.cpp.o CMakeFiles/animals.dir/Sources/AnimalFamily.cpp.o CMakeFiles/animals.dir/Sources/Fauna.cpp.o CMakeFiles/animals.dir/Sources/Planet.cpp.o CMakeFiles/animals.dir/Sources/Zoo.cpp.o -o animals 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Animals"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Headers"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Catch2"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Headers"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Catch2"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="animals">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/animals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Headers"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Catch2"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 animals"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="animals/fast">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/animals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Headers"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Catch2"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 animals/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Catch2/catch2.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Catch2/catch2.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources/AnimalFamily.cpp">
+			<Option target="test"/>
+			<Option target="animals"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources/Fauna.cpp">
+			<Option target="test"/>
+			<Option target="animals"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources/Planet.cpp">
+			<Option target="test"/>
+			<Option target="animals"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources/Zoo.cpp">
+			<Option target="test"/>
+			<Option target="animals"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Tests/main.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/main.cpp">
+			<Option target="animals"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

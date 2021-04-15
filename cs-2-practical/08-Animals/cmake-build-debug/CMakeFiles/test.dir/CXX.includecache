@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Headers/AnimalFamily.h
+iostream
+-
+
+../Headers/Fauna.h
+AnimalFamily.h
+../Headers/AnimalFamily.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources/Fauna.cpp
+Fauna.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/08-Animals/Sources/Fauna.h
+exception
+-
+cstring
+-
+

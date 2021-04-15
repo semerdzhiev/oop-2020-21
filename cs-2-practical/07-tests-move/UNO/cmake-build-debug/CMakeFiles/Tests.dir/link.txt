@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Tests.dir/Catch/catch2.cpp.o CMakeFiles/Tests.dir/Tests/main.cpp.o CMakeFiles/Tests.dir/Source_Files/Card.cpp.o CMakeFiles/Tests.dir/Source_Files/Deck.cpp.o CMakeFiles/Tests.dir/Source_Files/Game.cpp.o CMakeFiles/Tests.dir/Source_Files/Player.cpp.o  -o Tests 
+/usr/bin/c++ -g CMakeFiles/Tests.dir/Catch/catch2.cpp.o CMakeFiles/Tests.dir/Tests/main.cpp.o CMakeFiles/Tests.dir/Source_Files/Card.cpp.o CMakeFiles/Tests.dir/Source_Files/Deck.cpp.o CMakeFiles/Tests.dir/Source_Files/Game.cpp.o CMakeFiles/Tests.dir/Source_Files/Player.cpp.o -o Tests 
