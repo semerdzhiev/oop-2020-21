@@ -47,11 +47,28 @@ VariableName::VariableName() {
 	data[0] = '\0';
 }
 
+VariableName::VariableName(const char *name) {
+	size = strlen(name);
+	data = new char[size + 1];
+	strcpy(data, name);
+}
+
 VariableName::VariableName(const VariableName &other)
 	: size(0), data(nullptr) {
 	data = new char[other.size + 1];
 	strcpy(data, other.data);
 	size = other.size;
+}
+
+VariableName::VariableName(VariableName &&other) : data(nullptr), size(0) {
+	std::swap(size, other.size);
+	std::swap(data, other.data);
+}
+
+VariableName &VariableName::operator=(VariableName &&other) {
+	std::swap(size, other.size);
+	std::swap(data, other.data);
+	return *this;
 }
 
 VariableName::~VariableName() {
@@ -81,7 +98,7 @@ void VariableName::print() const {
 void UserVariable::printValue() const {
 	if (init) {
 		name.print();
-		std::cout << " = " << value;
+		std::cout << " = " << data;
 	} else {
 		std::cout << "Variable ";
 		name.print();
@@ -95,6 +112,6 @@ void UserVariable::setName(const VariableName &newName) {
 }
 
 void UserVariable::setValue(int newValue) {
-	value = newValue;
+	data = newValue;
 	init = true;
 }

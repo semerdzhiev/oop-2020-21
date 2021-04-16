@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 const int maxCount = 200;
 
@@ -6,7 +7,16 @@ class VariableName {
 public:
 	VariableName();
 
+	/*explicit*/ VariableName(const char *name);
+
+	// copy constructor
 	VariableName(const VariableName &other);
+
+	// move constructor
+	VariableName(VariableName &&other);
+
+	// move op =
+	VariableName &operator=(VariableName &&other);
 
 	~VariableName();
 
@@ -26,36 +36,36 @@ public:
 	UserVariable() {}
 	//UserVariable() = default;
 
-	UserVariable(const VariableName &name, int varValue, bool varInit)
-		: name(name), value(varValue), init(varInit)
+	UserVariable(VariableName name, int varValue, bool varInit)
+		: name(std::move(name)), data(varValue), init(varInit)
 	{}
 
 	void setName(const VariableName &name);
 
 	UserVariable operator+(const UserVariable &right) const {
 		UserVariable res;
-		res.value = value + right.value;
+		res.data = data + right.data;
 		res.init = true;
 		return res;
 	}
 
 	UserVariable operator-(const UserVariable &right) const {
 		UserVariable res;
-		res.value = value - right.value;
+		res.data = data - right.data;
 		res.init = true;
 		return res;
 	}
 
 	UserVariable operator*(const UserVariable &right) const {
 		UserVariable res;
-		res.value = value * right.value;
+		res.data = data * right.data;
 		res.init = true;
 		return res;
 	}
 
 	UserVariable operator/(const UserVariable &right) const {
 		UserVariable res;
-		res.value = value / right.value;
+		res.data = data / right.data;
 		res.init = true;
 		return res;
 	}
@@ -68,8 +78,16 @@ public:
 		return name;
 	}
 
+	const int &getValue() const {
+		return data;
+	}
+
+	bool isInit() const {
+		return init;
+	}
+
 private:
 	VariableName name;
-	int value = 0;
+	int data = 0;
 	bool init = false;
 };

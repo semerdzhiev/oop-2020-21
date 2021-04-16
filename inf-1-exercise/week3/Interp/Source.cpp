@@ -1,5 +1,6 @@
 ﻿#include <cstring>
 #include <iostream>
+#include <cassert>
 /*
 move
 
@@ -29,9 +30,6 @@ calc size % size
 #include "UserVariable.h"
 #include "VariableCollection.h"
 
-void print(const VariableName &v) {
-	v.print();
-}
 
 int main() {
 	try {
