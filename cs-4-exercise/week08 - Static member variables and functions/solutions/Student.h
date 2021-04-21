@@ -20,5 +20,12 @@ public:
 	Student& operator=(const Student& other);
 
 	~Student();
+
+	void print();
+
+	void setHasSubject(bool hasSubject);
+
+	bool hasSubject() const;
+
 };
 

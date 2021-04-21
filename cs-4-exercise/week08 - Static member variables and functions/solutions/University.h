@@ -24,5 +24,15 @@ public:
 
 	~University();
 
+	void addStudent(const char* m_name, int m_facultyNumber, bool m_hasSubject);
+
+	void addStudent(const Student& s);
+
+	size_t count();
+
+	Student& operator[](size_t index);
+
+	University operator+(const University& uni);
+
 };
 

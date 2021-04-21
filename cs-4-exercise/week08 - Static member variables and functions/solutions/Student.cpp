@@ -34,3 +34,20 @@ Student& Student::operator=(const Student& other) {
 Student::~Student() {
 	erase();
 }
+
+void Student::print() {
+	std::cout << "STUDENT:" << std::endl;
+	std::cout << "Name: " << m_name << std::endl;
+	std::cout << "FacultyNumber: " << m_facultyNumber << std::endl;
+	std::cout << "HasSubject: " << m_hasSubject << std::endl << std::endl;
+}
+
+void Student::setHasSubject(bool hasSubject) {
+	m_hasSubject = hasSubject;
+}
+
+bool Student::hasSubject() const {
+	return m_hasSubject;
+}
+
+
