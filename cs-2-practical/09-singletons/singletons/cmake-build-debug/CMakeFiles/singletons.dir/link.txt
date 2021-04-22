@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/singletons.dir/main.cpp.o -o singletons 

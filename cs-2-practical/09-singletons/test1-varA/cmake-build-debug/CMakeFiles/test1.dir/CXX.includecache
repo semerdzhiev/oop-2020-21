@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Header/Registration.h
+
+../Header/Vehicle.h
+Registration.h
+../Header/Registration.h
+string
+-
+
+../Header/VehicleList.h
+Vehicle.h
+../Header/Vehicle.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/09-singletons-and-test-task/test1-varA/main.cpp
+iostream
+-
+VehicleList.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/09-singletons-and-test-task/test1-varA/VehicleList.h
+
