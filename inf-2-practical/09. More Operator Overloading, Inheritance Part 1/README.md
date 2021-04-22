@@ -1,6 +1,6 @@
  # Наследяване
  
- [Запис] скоро тук
+ Запис: *скоро тук*
 
 За домашно остана да направите задача 2, по желание и задача 3 ^.^
 
@@ -156,4 +156,6 @@ public:
 ### access specifers & inheritance
 
 ![access specifers & inheritance](https://z-p3-scontent.fpdv1-1.fna.fbcdn.net/v/t1.15752-9/176760796_255215846343541_6009060051701602976_n.png?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_ohc=evrl4DvQ5nwAX_NIyKI&_nc_ht=z-p3-scontent.fpdv1-1.fna&oh=c8198d7c75be4431b391516ef076fe4f&oe=60A627F7)
-*[Credits](https://github.com/triffon/oop-2019-20/blob/master/exercises/2/10-inheritance/seminar-10.pdf)*   
+
+
+*[Table credits](https://github.com/triffon/oop-2019-20/blob/master/exercises/2/10-inheritance/seminar-10.pdf)*   
