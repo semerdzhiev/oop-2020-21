@@ -1,0 +1,128 @@
+
+Top-Down vs Bottom-Up
+
+
+> Single Responsibility Principle
+	- One class or one function must do one thing
+	- One class or one funciton must have one reason to change
+	- 
+
+ChessGameInteraction?
+ChessGameVisualization?
+
+makeMoves([Move])??
+
+
+
+// + = white
+// - = black
+enum PieceType {
+	EMPTY,
+	PAWN,
+	KNIGHT,
+	BISHOP,
+	ROOK,
+	QUEEN,
+	KING
+};
+
+
+ChessGame
+	who's move is it?
+
+	bool isMoveValid(Move move) {
+		return isTheMoveInTheBoard(move)
+			&& isMovingFigureFromTheCorrectColor(move)
+			&& isCorrectPieceMove(move);
+	}
+
+	bool isCorrectPieceMove(Move move) {
+		switch (chessBoard.getPieceType(move.getStartPosition())) {
+			case PAWN: return isValidPawnMove(move);
+			case KNIGHT: return isValidKnightMove(move);
+			case BISHOP: return isValidBishopMove(move);
+			case ROOK: return isValidRookMove(move);
+			case QUEEN: return isValidQueenMove(move);
+			case KING: return isValidKingMove(move);
+			default: false;
+		}
+	}
+
+	bool isValidPawnMove(move) {
+		return true; // TODO IMPLEMENT
+	}
+
+	bool isValidKnightMove(move) {
+		return true; // TODO IMPLEMENT
+	}
+
+	bool isValidBishopMove(move) {
+		return true; // TODO IMPLEMENT
+	}
+
+	bool isValidRookMove(move) {
+		return true; // TODO IMPLEMENT
+	}
+
+	bool isValidQueenMove(move) {
+		return true; // TODO IMPLEMENT
+	}
+
+	bool isValidKingMove(move) {
+		return true; // TODO IMPLEMENT
+	}
+
+
+	bool makeMove(Move move) {
+		if (!isMoveValid(move)) {
+			return false;
+		}
+
+		if (isCurrentPlayerCheckAfterTheMove()) {
+			return false;
+		}
+
+		applyMove(move);
+		return true;
+	}
+
+	makeWhiteMove(Move move);
+	makeBlackMove(Move move);
+
+	hasGameEnded() vs  getGameStatus() -> NOT_STARTED, ONGOING, WHITE_WINS, BLACK_WINS, DRAw
+
+private:
+	ChessBoard chessBoard;
+		short[8][8]
+		// Piece[8][8]
+
+Command Pattern?
+
+
+
+# TEST CASE valid pawn move
+ChessGame chessGame;
+true == chessGame.makeMove(new Move('a', 2, 'a', 3));
+
+# TEST CASE valid first pawn move
+ChessGame chessGame;
+true == chessGame.makeMove(new Move('a', 2, 'a', 4));
+
+# TEST CASE valid pawn moves
+ChessGame chessGame;
+true == chessGame.makeMove(new Move('a', 2, 'a', 3)); // white player
+true == chessGame.makeMove(new Move('a', 7, 'a', 6)); // black player 
+
+# TEST CASE invalid pawn move backwards
+ChessGame chessGame;
+true == chessGame.makeMove(new Move('a', 2, 'a', 4));
+true == chessGame.makeMove(new Move('a', 7, 'a', 6));
+false == chessGame.makeMove(new Move('a', 2, 'a', 3));
+
+# TEST CASE invalid pawn move
+ChessGame chessGame;
+false == chessGame.makeMove(new Move('a', 2, 'b', 3));
+
+
+
+
