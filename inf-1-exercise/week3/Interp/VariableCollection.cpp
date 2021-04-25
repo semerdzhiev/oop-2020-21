@@ -4,9 +4,7 @@
 
 void VariableCollection::declareVariable(const VariableName &name) {
 	variables[variableCount].setName(name);
-	std::cout << "Declared variable ";
-	std::cout << variables[variableCount].getName();
-	std::cout << std::endl;
+	std::cout << "Declared variable " << variables[variableCount].getName() << std::endl;
 	++variableCount;
 }
 
@@ -22,12 +20,12 @@ int VariableCollection::findVariableIndex(const VariableName &search) const {
 void VariableCollection::assignVariable(const VariableName &name, int value) {
 	const int index = findVariableIndex(name);
 	variables[index].setValue(value);
-	std::cout << variables[index];
+	std::cout << variables[index] << std::endl;
 }
 
 void VariableCollection::printVariable(const VariableName &name) const {
 	const int index = findVariableIndex(name);
-	std::cout << variables[index];
+	std::cout << variables[index] << std::endl;
 }
 
 UserVariable VariableCollection::calc(const VariableName &left, const VariableName &right, char op) {
