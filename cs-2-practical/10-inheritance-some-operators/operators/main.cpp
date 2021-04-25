@@ -1,6 +1,7 @@
 #include <iostream>
 #include<cassert>
 #include<cmath>
+#include<vector>
 
 class Time {
 private:
@@ -86,14 +87,31 @@ public:
     }
 };
 
+struct A {
+    int x = 0;
+    int y = 0;
+
+    A(int x, int y) : x(x), y(y) {}
+
+    A(const A &a) : x(a.x), y(a.y) {
+        std::cout<<"Copy constructor\n";
+    }
+    A(A&& a)  noexcept : x(a.x), y(a.y) {
+        std::cout<<"Move constructor\n";
+    }
+    A& operator=(const A& a) = delete;
+};
+
 int main() {
+    std::vector<A> vec;
+    vec.emplace_back(2,2);
     Time t(25, 30, 10);
     if (t) {
         std::cout << "True\n";
     }
 
     PointWrapper p(1, 1);
-    std::cout << p->distance(0, 0) << std::endl<<(*p).X()<<' '<<(*p).Y()<<std::endl;
+    std::cout << p->distance(0, 0) << std::endl << (*p).X() << ' ' << (*p).Y() << std::endl;
     std::cout << t(20);
     return 0;
 }
