@@ -10,6 +10,11 @@ bool isSpace(char c) {
 
 VariableName VariableName::read() {
 	VariableName name;
+	std::cin >> name;
+	return name;
+}
+
+std::istream &operator>>(std::istream &inStream, VariableName &right) {
 	int capacity = 4;
 	char *myString = new char[capacity + 1];
 
@@ -35,9 +40,18 @@ VariableName VariableName::read() {
 	}
 	myString[size] = '\0';
 
-	name.data = myString;
-	name.size = size;
-	return name;
+	delete[] right.data;
+	right.data = myString;
+	right.size = size;
+	return inStream;
+}
+
+std::ostream &operator<<(std::ostream &outStream, const VariableName &name) {
+	return outStream << name.getData();
+}
+
+bool operator==(const VariableName &left, const VariableName &right) {
+	return strcmp(left.getData(), right.getData()) == 0;
 }
 
 
@@ -76,7 +90,6 @@ VariableName::~VariableName() {
 }
 
 VariableName &VariableName::operator=(const VariableName &right) {
-	VariableName *s = this;
 	if (this != &right) {
 		char *newBuffer = new char[right.size + 1];
 		delete[] data;
@@ -87,24 +100,36 @@ VariableName &VariableName::operator=(const VariableName &right) {
 	return *this;
 }
 
-bool VariableName::operator==(const VariableName &other) const {
-	return strcmp(data, other.data) == 0;
+
+UserVariable::UserVariable(VariableName name, int varValue, bool varInit)
+	: name(std::move(name)), data(varValue), init(varInit) {}
+
+UserVariable UserVariable::operator+(const UserVariable &right) const {
+	UserVariable res;
+	res.data = data + right.data;
+	res.init = true;
+	return res;
 }
 
-void VariableName::print() const {
-	std::cout << data;
+UserVariable UserVariable::operator-(const UserVariable &right) const {
+	UserVariable res;
+	res.data = data - right.data;
+	res.init = true;
+	return res;
 }
 
-void UserVariable::printValue() const {
-	if (init) {
-		name.print();
-		std::cout << " = " << data;
-	} else {
-		std::cout << "Variable ";
-		name.print();
-		std::cout << " is not initialized";
-	}
-	std::cout << std::endl;
+UserVariable UserVariable::operator*(const UserVariable &right) const {
+	UserVariable res;
+	res.data = data * right.data;
+	res.init = true;
+	return res;
+}
+
+UserVariable UserVariable::operator/(const UserVariable &right) const {
+	UserVariable res;
+	res.data = data / right.data;
+	res.init = true;
+	return res;
 }
 
 void UserVariable::setName(const VariableName &newName) {
@@ -114,4 +139,24 @@ void UserVariable::setName(const VariableName &newName) {
 void UserVariable::setValue(int newValue) {
 	data = newValue;
 	init = true;
+}
+
+const VariableName &UserVariable::getName() const {
+	return name;
+}
+
+const int &UserVariable::getValue() const {
+	return data;
+}
+
+bool UserVariable::isInit() const {
+	return init;
+}
+
+std::ostream &operator<<(std::ostream &outStream, const UserVariable &right) {
+	if (right.isInit()) {
+		return outStream << right.getName() << "=" << right.getValue();
+	} else {
+		return outStream << "Unininialized variable " << right.getName();
+	}
 }
