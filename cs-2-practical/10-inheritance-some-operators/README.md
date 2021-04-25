@@ -7,6 +7,10 @@
 	function call operator()
 	Comparison operators
 	More operator: https://en.cppreference.com/w/cpp/language/operators
+## Да си поговирм за:
+* Как да връщаме няколко стойности от една функция (ООП начина)
+* Какво е std::array?
+	
 ### Наследяване
 Ще разгледаме няколко примера и картинката кое къде ходи.
 Ще решим няколко задачки. ( Очаквам от вас активност :) )
