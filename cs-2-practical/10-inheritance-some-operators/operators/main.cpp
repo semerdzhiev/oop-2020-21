@@ -5,9 +5,9 @@
 
 class Time {
 private:
-    unsigned seconds{};
-    unsigned minutes{};
-    unsigned hours{};
+    unsigned seconds;
+    unsigned minutes;
+    unsigned hours;
 public:
     explicit operator bool() const {
         return seconds != 0 && minutes != 0 && seconds != 0;
@@ -22,7 +22,7 @@ public:
 //    postfix time ++
     Time operator++(int) {
         Time copy(*this);
-        seconds++;
+        this->seconds++;
         return copy;
     }
 
@@ -44,22 +44,17 @@ public:
     }
 };
 
-class Point2D {
-private:
+struct Point2D {
     int x = 0;
     int y = 0;
-public:
     Point2D(int x, int y) : x(x), y(y) {}
-
-    int X() const { return x; }
-
-    int Y() const { return y; }
 
     double distance(int x1, int y1) const {
         return sqrt(((x - x1) * (x - x1)) + ((y - y1) * (y - y1)));
     }
 };
 
+//smart pointer
 class PointWrapper {
 private:
     Point2D *ptr;
@@ -87,11 +82,15 @@ public:
     }
 };
 
-struct A {
+class A {
+private:
     int x = 0;
     int y = 0;
+public:
 
-    A(int x, int y) : x(x), y(y) {}
+    A(int x, int y) : x(x), y(y) {
+        std::cout<<"Constructor called\n";
+    }
 
     A(const A &a) : x(a.x), y(a.y) {
         std::cout<<"Copy constructor\n";
@@ -100,18 +99,22 @@ struct A {
         std::cout<<"Move constructor\n";
     }
     A& operator=(const A& a) = delete;
+    void print() {
+        std::cout<<x<<' '<<y<<'\n';
+    }
 };
 
 int main() {
     std::vector<A> vec;
     vec.emplace_back(2,2);
+    vec[0].print();
     Time t(25, 30, 10);
     if (t) {
         std::cout << "True\n";
     }
 
     PointWrapper p(1, 1);
-    std::cout << p->distance(0, 0) << std::endl << (*p).X() << ' ' << (*p).Y() << std::endl;
+    std::cout << p->distance(0, 0) << std::endl << (*p).x << ' ' << (*p).y << std::endl;
     std::cout << t(20);
     return 0;
 }

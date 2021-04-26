@@ -1,0 +1,3 @@
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/CMakeFiles/ArrayExamples.dir

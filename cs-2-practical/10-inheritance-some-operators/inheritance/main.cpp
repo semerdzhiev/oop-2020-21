@@ -53,13 +53,16 @@ class B : public A {
     void test() {
         x=2;
         y=3;
+        //z ne mozhe
     }
 };
 
 int main() {
     Player p1(0,1,"Petko");
-    std::cout<<p1.getName()<<std::endl;
+    p1.setX(3);
+    std::cout<<p1.getX()<<std::endl;
     B b;
     b.x;
+    //y i z ne mozhe
     return 0;
 }

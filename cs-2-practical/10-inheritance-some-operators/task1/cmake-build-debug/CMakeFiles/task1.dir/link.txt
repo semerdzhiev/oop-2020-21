@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/task1.dir/main.cpp.o CMakeFiles/task1.dir/Entity.cpp.o CMakeFiles/task1.dir/Power.cpp.o CMakeFiles/task1.dir/Hero.cpp.o CMakeFiles/task1.dir/Vilian.cpp.o -o task1 
