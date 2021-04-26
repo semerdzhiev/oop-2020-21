@@ -55,7 +55,7 @@ __Hero:__
 * Health
 * Worst enemy (Vilian)
 * Мotto
-* Heroes can attack vilians
+Heroes can attack vilians
 
 __Vilian:__
 * Name
