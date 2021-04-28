@@ -51,17 +51,23 @@ Invalid combinations:
  - ios::trunc without ios::out
  
 ### 3. Reading and writing from/to a text file demo
+```
 operator <<
 operator >>
 getline(istream, str)
+```
 
 ### 4. File position pointers
+```c
 streampos tellg(); - current get position
 streampos tellp(); - current put position
+```
 
 Set the get/put positions:
+```c
 seekg ( offset, direction );  
 seekp ( offset, direction );
+```
 
 direction can be:
 
@@ -70,8 +76,10 @@ direction can be:
 - ios::end - offset counted from the end of the stream
 
 ### 5. Binary files
+```c
 istream& read (char* s, streamsize n);
 ostream& write (const char* s, streamsize n);
+```
 
 ### 6. Задачи
 
@@ -82,6 +90,6 @@ Vestibulum ac massa tempor, egestas lacus vitae, tristique leo.
 Donec non mollis tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 ```
 
-1. Отпечатайте на стандартния изход съдържанието на файла, броя на редовете му и размера (в байтове)
+1. Отпечатайте на стандартния изход съдържанието на файла, броя на редовете му и размера в байтове
 2. Напишете клас Jedi, който има член данна char** m_skills, която представлява динамичен масив от динамични числови низове. Имплементирайте методите void read(const char* filename) и void write(const char* filename), които прочитат / записват обект от класа Jedi във файл с името filename. Класът Jedi да има статична променлива m_version, която да се има предвид при сериализацията.
 3. Добавете член данна за възрастта на Jedi към класа и се уверете, че обекти от тип Jedi могат да се четат дори със старата версия на класа (преди да има член данната m_age)
