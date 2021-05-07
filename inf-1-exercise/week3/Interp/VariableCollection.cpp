@@ -4,9 +4,7 @@
 
 void VariableCollection::declareVariable(const VariableName &name) {
 	variables[variableCount].setName(name);
-	std::cout << "Declared variable ";
-	variables[variableCount].getName().print();
-	std::cout << std::endl;
+	std::cout << "Declared variable " << variables[variableCount].getName() << std::endl;
 	++variableCount;
 }
 
@@ -22,12 +20,12 @@ int VariableCollection::findVariableIndex(const VariableName &search) const {
 void VariableCollection::assignVariable(const VariableName &name, int value) {
 	const int index = findVariableIndex(name);
 	variables[index].setValue(value);
-	variables[index].printValue();
+	std::cout << variables[index] << std::endl;
 }
 
 void VariableCollection::printVariable(const VariableName &name) const {
 	const int index = findVariableIndex(name);
-	variables[index].printValue();
+	std::cout << variables[index] << std::endl;
 }
 
 UserVariable VariableCollection::calc(const VariableName &left, const VariableName &right, char op) {
@@ -35,8 +33,7 @@ UserVariable VariableCollection::calc(const VariableName &left, const VariableNa
 	const int leftIdx = findVariableIndex(left);
 	const int rightIdx = findVariableIndex(right);
 
-	// TODO:
-	// result.setName("-temporary");
+	result.setName("-temporary");
 
 	switch (op) {
 	case '+':

@@ -1,6 +1,6 @@
  # Наследяване
  
- Запис: *скоро тук*
+ [Запис](https://drive.google.com/file/d/1iYa7XANmvVgaKRQhlDufuIw41DrzTtRJ/view?usp=sharing) 
 
 За домашно остана да направите втора и трета задача ^.^
 

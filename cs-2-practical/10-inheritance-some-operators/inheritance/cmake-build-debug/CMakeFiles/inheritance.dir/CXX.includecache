@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/inheritance/main.cpp
+iostream
+-
+string
+-
+utility
+-
+

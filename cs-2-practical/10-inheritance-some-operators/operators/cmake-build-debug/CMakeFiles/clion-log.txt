@@ -1,0 +1,4 @@
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/operators
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/operators/cmake-build-debug

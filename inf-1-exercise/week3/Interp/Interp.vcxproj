@@ -125,13 +125,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="UserVariable.h" />
+    <ClInclude Include="VariableCollection.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="UserVariable.cpp" />
     <ClCompile Include="VariableCollection.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="UserVariable.h" />
-    <ClInclude Include="VariableCollection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

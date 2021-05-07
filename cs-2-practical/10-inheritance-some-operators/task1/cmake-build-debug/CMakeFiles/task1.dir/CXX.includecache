@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Entity.cpp
+Entity.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Entity.h
+utility
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Entity.h
+string
+-
+Power.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Power.h
+vector
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Hero.cpp
+Hero.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Hero.h
+utility
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Hero.h
+Entity.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Entity.h
+Vilian.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Vilian.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Power.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Vilian.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/main.cpp
+iostream
+-
+Hero.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/task1/Hero.h
+

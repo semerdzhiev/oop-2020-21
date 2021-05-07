@@ -1,5 +1,6 @@
 ﻿#include <cstring>
 #include <iostream>
+#include <cassert>
 /*
 move
 
@@ -24,14 +25,14 @@ calc a * b
 calc a / b
 calc size - b
 calc size % size
+
+declare result
+calc_var result a + b
  */
 
 #include "UserVariable.h"
 #include "VariableCollection.h"
 
-void print(const VariableName &v) {
-	v.print();
-}
 
 int main() {
 	try {
@@ -41,26 +42,33 @@ int main() {
 		do {
 			std::cin >> command;
 			if (!strcmp(command, "declare")) {
-				VariableName name = VariableName::read();
+				VariableName name;
+				std::cin >> name;
 				collection.declareVariable(name);
 			} else if (!strcmp(command, "assign")) {
-				VariableName name = VariableName::read();
+				VariableName name;
 				int value;
-				std::cin >> value;
+				std::cin >> name >> value;
 				collection.assignVariable(name, value);
 			} else if (!strcmp(command, "print")) {
-				VariableName name = VariableName::read();
+				VariableName name;
+				std::cin >> name;
 				collection.printVariable(name);
 			} else if (!strcmp(command, "calc")) {
 				// calc a + b
 				// calc a - b
 				VariableName left, right;
-				left = VariableName::read();
 				char op;
-				std::cin >> op;
-				right = VariableName::read();
+				std::cin >> left >> op >> right;
 				UserVariable res = collection.calc(left, right, op);
-				res.printValue();
+				std::cout << res;
+			} else if (!strcmp(command, "calc_var")) {
+				// calc_var result left + right
+				VariableName left, right, result;
+				char op;
+				std::cin >> result >> left >> op >> right;
+				UserVariable value = collection.calc(left, right, op);
+				collection.assignVariable(result, value.getValue());
 			}
 		} while (strcmp(command, "quit") != 0);
 	} catch (std::bad_alloc &ex) {

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ArrayExamples.dir/main.cpp.o -o ArrayExamples 

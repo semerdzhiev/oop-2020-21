@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ArrayExamples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArrayExamples">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/ArrayExamples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArrayExamples"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArrayExamples/fast">
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/ArrayExamples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArrayExamples/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/main.cpp">
+			<Option target="ArrayExamples"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/10-inheritance-some-operators/ArrayExamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
