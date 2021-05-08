@@ -1,0 +1,7 @@
+6
+rectangle 0 0 1 1
+square 0 0 4
+square 0 0 6 6
+equilateral-triangle 0 0 1 1 2 2
+isosceles-triangle 0 0 1 1 2 2
+scalene-triangle 0 0 1 1 2 2
