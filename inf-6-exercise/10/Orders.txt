@@ -1,0 +1,3 @@
+Salt	1	1.50
+Eggs	10	2.50
+Fast Cooker	1	150.90
