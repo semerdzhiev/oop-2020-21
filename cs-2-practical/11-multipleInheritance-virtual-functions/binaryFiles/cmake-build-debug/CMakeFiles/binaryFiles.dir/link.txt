@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/binaryFiles.dir/main.cpp.o -o binaryFiles 

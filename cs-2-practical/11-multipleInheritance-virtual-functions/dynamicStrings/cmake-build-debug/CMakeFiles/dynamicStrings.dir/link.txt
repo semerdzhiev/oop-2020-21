@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/dynamicStrings.dir/main.cpp.o -o dynamicStrings 

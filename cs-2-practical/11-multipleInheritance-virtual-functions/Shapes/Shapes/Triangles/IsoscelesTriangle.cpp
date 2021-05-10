@@ -1,1 +1,0 @@
-#include "IsoscelesTriangle.h"
