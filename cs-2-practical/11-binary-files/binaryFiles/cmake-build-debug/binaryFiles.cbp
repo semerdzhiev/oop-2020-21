@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binaryFiles">
-				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/binaryFiles" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug"/>
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/binaryFiles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryFiles"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryFiles"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binaryFiles/fast">
-				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/binaryFiles" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug"/>
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/binaryFiles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,17 +75,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryFiles/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryFiles/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/main.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/main.cpp">
 			<Option target="binaryFiles"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/binaryFiles/CMakeLists.txt">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/binaryFiles/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

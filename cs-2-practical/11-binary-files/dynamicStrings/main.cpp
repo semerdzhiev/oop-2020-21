@@ -2,28 +2,46 @@
 #include <iostream>
 #include <cstring>
 
+
 const int MAXN = 1024;
 
 struct Student {
+
     char *name = nullptr;
     unsigned int fn = 0;
-};
 
-void freeStudentMem(Student &s) {
-    delete[] s.name;
-    s.name = nullptr;
-}
+    Student(char *name = nullptr, unsigned int fn = 0) {
+        throw std::exception("dadadd");
+        copy((*this), name, fn);
+    }
+
+    static void copy(Student &s, char *name, unsigned int fn) {
+        if (name != nullptr) {
+            s.name = new char[strlen(name) + 1];
+            strcpy(s.name, name);
+            s.fn = fn;
+        }
+    }
+
+    void free() {
+        delete[] name;
+        name = nullptr;
+    }
+
+    ~Student() {
+        free();
+    }
+};
 
 void readStudentFromStdin(Student &s) {
     char buff[MAXN];
     std::cout << "enter name: ";
     std::cin.get();
     std::cin.getline(buff, MAXN);
-    size_t inputLen = strlen(buff);
-    s.name = new char[inputLen + 1];
-    strcpy(s.name, buff);
-    std::cout << "enter fn: ";
-    std::cin >> s.fn;
+    unsigned int fn;
+    std::cin >> fn;
+    s.free();
+    Student::copy(s, buff, fn);
 }
 
 void writeStudentToStdout(const Student &s) {
@@ -35,20 +53,19 @@ void writeStudentToFile(const Student &s, std::ofstream &ofs) {
     ofs.write((const char *) &s.fn, sizeof(unsigned int));
 
     size_t len = strlen(s.name);
-    //след това размера на стринга
     ofs.write((const char *) &len, sizeof(size_t));
 
     //съдържанието на стринга
-    ofs.write(s.name, len); //len * sizeof(char) -> len
+    ofs.write(s.name, len * sizeof(char)); //len * sizeof(char) -> len
 }
 
 void readStudentFromFile(Student &s, std::ifstream &ifs) {
+    s.free();
     ifs.read((char *) &s.fn, sizeof(unsigned int));
     size_t len = 0;
     ifs.read((char *) &len, sizeof(size_t));
-    delete[] s.name;
     s.name = new char[len + 1];
-    ifs.read(s.name, len); //len * sizeof(char) -> len
+    ifs.read(s.name, len * sizeof(char)); //len * sizeof(char) -> len
     s.name[len] = '\0';
 }
 
@@ -64,7 +81,7 @@ bool writeStudents(const char *path) {
     for (size_t i = 0; i < n; i++) {
         readStudentFromStdin(s);
         writeStudentToFile(s, ofs);
-        freeStudentMem(s);
+        s.free();
         if (!ofs)
             return false;
     }
@@ -77,12 +94,13 @@ void readStudents(const char *path) {
     std::ifstream ifs(path, std::ios::binary);
     if (!ifs.is_open())
         return;
-    Student s;
+
     while (!ifs.eof()) {
+        Student s;
         readStudentFromFile(s, ifs);
-        if (ifs)
+        if (ifs.good())
             writeStudentToStdout(s);
-        freeStudentMem(s);
+        //s.free();
     }
     ifs.close();
 }

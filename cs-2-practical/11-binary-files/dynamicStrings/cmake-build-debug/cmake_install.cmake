@@ -1,4 +1,4 @@
-# Install script for directory: /home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/dynamicStrings
+# Install script for directory: /home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/dynamicStrings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/dynamicStrings/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/dynamicStrings/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

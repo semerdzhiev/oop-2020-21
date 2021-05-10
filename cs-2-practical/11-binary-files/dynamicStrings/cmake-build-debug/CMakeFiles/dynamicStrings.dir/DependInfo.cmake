@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/dynamicStrings/main.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/11-multipleInheritance-virtual-functions/dynamicStrings/cmake-build-debug/CMakeFiles/dynamicStrings.dir/main.cpp.o"
+  "/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/dynamicStrings/main.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/11-binary-files/dynamicStrings/cmake-build-debug/CMakeFiles/dynamicStrings.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
