@@ -4,8 +4,7 @@
 
 int main()
 {
-    std::string buffer;
-
+   
     std::ifstream file("task1.cpp");
 
     if(!file.is_open()) 
@@ -15,7 +14,8 @@ int main()
     }
 
     std:: cout << "First way: " << std::endl;
-
+    std::string buffer;
+    
     while(!file.eof()) 
     {
         file >> buffer;
