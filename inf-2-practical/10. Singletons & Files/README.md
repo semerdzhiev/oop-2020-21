@@ -76,7 +76,7 @@ private:
 `<pos>` e броя позиции с който да се измести като започне от
 `[way]` което може да е ios_base::beg, ios_base::end, ios_base::cur
 
-Command Line Arguments in Visual Studio
+## Command Line Arguments in Visual Studio
 1. Right-click the default project (the one to be run) in Visual Studio and select "Properties".
 2. Click on the "Debug" tab on the left.
 3. Enter your command line arguments in the textbox labeled "Command line arguments".
