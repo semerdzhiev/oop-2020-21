@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/FMIPersons.dir/main.cpp.o CMakeFiles/FMIPersons.dir/Person.cpp.o CMakeFiles/FMIPersons.dir/Student.cpp.o CMakeFiles/FMIPersons.dir/Lecturer.cpp.o CMakeFiles/FMIPersons.dir/FacultyMember.cpp.o -o FMIPersons 

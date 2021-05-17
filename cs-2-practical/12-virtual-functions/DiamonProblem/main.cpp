@@ -5,14 +5,20 @@ public:
     char a = 'a';
 };
 
+//    A
+//   / \
+//   B  C
+//    \ /
+//     D
+
 //base class I
-class B :  public A {
+class B : virtual public A {
 public:
     char b = 'b';
 };
 
 //base class II
-class C :  public A {
+class C : virtual public A {
 public:
     char c = 'c';
 };
@@ -23,8 +29,13 @@ public:
     char d = 'd';
 };
 
+class E : public D{
+public:
+    char e = 'e';
+};
+
 int main() {
-    D d;
-    std::cout<<d.d<<std::endl;
+    D d; E e;
+    std::cout << d.a <<'\n'<<e.a<< std::endl;
     return 0;
 }

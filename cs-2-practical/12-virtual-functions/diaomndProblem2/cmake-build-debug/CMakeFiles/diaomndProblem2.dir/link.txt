@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/diaomndProblem2.dir/main.cpp.o -o diaomndProblem2 
