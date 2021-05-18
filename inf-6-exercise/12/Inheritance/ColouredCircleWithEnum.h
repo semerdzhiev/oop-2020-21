@@ -11,8 +11,8 @@ class ColouredCircle : public Circle
 	public:
 		ColouredCircle(const Point& center, double radius, Colour colour);
 
-		// няма нужда да се дефинират копиращ конструктор,
-		// операция за присвояване и деструктор
+		// РЅСЏРјР° РЅСѓР¶РґР° РґР° СЃРµ РґРµС„РёРЅРёСЂР°С‚ РєРѕРїРёСЂР°С‰ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ,
+		// РѕРїРµСЂР°С†РёСЏ Р·Р° РїСЂРёСЃРІРѕСЏРІР°РЅРµ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 
 		Colour getColour() const;
 		void setColour(Colour newColour);
