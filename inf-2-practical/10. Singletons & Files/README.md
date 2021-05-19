@@ -1,6 +1,6 @@
 # Файлове
 
-*Запис скоро тук*
+[Запис](https://drive.google.com/file/d/1kI3bPCGwiXR_4sss8dEV3EZ89RacYa59/view?usp=sharing)
 
 Има бонус задача за домашно <3
 
