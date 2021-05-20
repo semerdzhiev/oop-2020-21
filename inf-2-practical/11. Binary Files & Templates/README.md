@@ -1,6 +1,6 @@
 # Binary Files & Templates
 
-*Запис скоро тук*
+[Запис](https://drive.google.com/file/d/1SU-I3yg9Thmeu2sY3tJnm7SE-B_ov1Mm/view?usp=sharing)
 
 Припомнете си какво правихме за наследяване преди време ^.^
 
