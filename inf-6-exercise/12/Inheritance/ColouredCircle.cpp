@@ -6,6 +6,7 @@
 
 // всеки клас се грижи за собствените си член-данни
 ColouredCircle::ColouredCircle(const Point& center, double r, const char* colour)
+    : Circle(center, r)
 {
     this->setColour(colour);
 
