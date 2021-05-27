@@ -6,7 +6,7 @@ struct Student {
     unsigned int fn = 0;
 };
 
-size_t getFileLen(std::ifstream &ifs) {
+size_t getFileSize(std::ifstream &ifs) {
     long cur = ifs.tellg();
     ifs.seekg(0, std::ios::end);
     size_t size = ifs.tellg();
