@@ -1,5 +1,6 @@
 # Упражнение 13 - 27/05/2021
 ## План за упражнението
+	- Ще преговорим работа с бинарни файлове
 	- https://en.cppreference.com/w/cpp/container/vector/emplace_back
 	- Параметри https://en.cppreference.com/w/cpp/language/parameter_pack
 	- Ще решим една задача, за да сте готови за контролното
