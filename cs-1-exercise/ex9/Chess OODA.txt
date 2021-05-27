@@ -89,7 +89,7 @@ ChessGame
 	makeWhiteMove(Move move);
 	makeBlackMove(Move move);
 
-	hasGameEnded() vs  getGameStatus() -> NOT_STARTED, ONGOING, WHITE_WINS, BLACK_WINS, DRAw
+	hasGameEnded() vs  getGameStatus() -> NOT_STARTED, ONGOING, WHITE_WINS, BLACK_WINS, DRAW
 
 private:
 	ChessBoard chessBoard;
