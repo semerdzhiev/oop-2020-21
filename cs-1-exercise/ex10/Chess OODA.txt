@@ -1,0 +1,156 @@
+
+Top-Down vs Bottom-Up
+
+
+> Single Responsibility Principle
+	- One class or one function must do one thing
+	- One class or one funciton must have one reason to change
+	- 
+
+ChessGameInteraction?
+ChessGameVisualization?
+
+makeMoves([Move])??
+
+
+
+// + = white
+// - = black
+enum PieceType {
+	EMPTY,
+	PAWN,
+	KNIGHT,
+	BISHOP,
+	ROOK,
+	QUEEN,
+	KING
+};
+
+
+// Inheritance
+
+
+// Абстрактен клас = клас, който има поне един метод, който не е имплементиран
+// Чисто абстрактен клас (interface) = в класа има само методи, които не са имплементирани
+// Не могат да се създават инстанции от абстрактните класове
+
+
+class Piece {
+public:
+	// абстрактен метод = без имплементация. Не може да бъде private
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const = 0; 
+};
+
+
+class Pawn : public Piece {
+public:
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const {
+		cout << "isValid_PAWN_Move" << endl;
+		return true;
+	}
+};
+
+class Knight : public Piece {
+public:
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const { return false; }
+};
+
+class Bishop : public Piece {
+public:
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const { return false; }
+};
+
+class Rook : public Piece {
+public:
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const { return false; }
+};
+
+class Queen : public Piece {
+public:
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const { return false; }
+};
+
+class King : public Piece {
+public:
+	virtual boolean isValidMove(const Move & move, const ChessBoard & board) const { return false; }
+};
+
+
+ChessGameRules {
+public:
+	bool isMoveValid(const Move & move, const ChessBoard & board) const {
+		return isTheMoveInTheBoard(move, board)
+			&& isMovingFigureFromTheCorrectColor(move, board)
+			&& isCorrectPieceMove(move, board);
+	}
+
+private:
+	bool isCorrectPieceMove(Move move) {
+		Piece * piece = chessBoard.getPiece(move.getStartPosition()); // ??? how to handle empty spaces
+		return piece->isValidMove();
+
+		// switch (chessBoard.getPieceType(move.getStartPosition())) {
+		// 	case PAWN: return isValidPawnMove(move);
+		// 	case KNIGHT: return isValidKnightMove(move);
+		// 	case BISHOP: return isValidBishopMove(move);
+		// 	case ROOK: return isValidRookMove(move);
+		// 	case QUEEN: return isValidQueenMove(move);
+		// 	case KING: return isValidKingMove(move);
+		// 	default: false;
+		// }
+	}
+}
+
+ChessGame
+	who's move is it?
+public: 
+	bool makeMove(Move move) {
+		if (!isMoveValid(move, this->chessBoard)) {
+			return false;
+		}
+
+		if (isCurrentPlayerCheckAfterTheMove()) {
+			return false;
+		}
+
+		applyMove(move);
+		return true;
+	}
+
+
+	boolean hasGameEnded();
+
+	getGameStatus() -> NOT_STARTED, ONGOING, WHITE_WINS, BLACK_WINS, DRAW
+
+private:
+	ChessGameRules rules;
+	ChessBoard chessBoard;
+		Piece*[8][8]
+
+
+
+# TEST CASE pawn moves
+Pawn pawn;
+ChessBoard chessBoard;
+
+	# SECTION valid pawn move
+	true == pawn.isValidMove(new Move('a', 2, 'a', 3), chessBoard);
+
+	# SECTION valid first pawn move
+	true == pawn.isValidMove(new Move('a', 2, 'a', 4), chessBoard);
+
+	# SECTION valid pawn moves
+	true == pawn.isValidMove(new Move('a', 2, 'a', 3), chessBoard); // white player
+	true == pawn.isValidMove(new Move('a', 7, 'a', 6), chessBoard); // black player 
+
+	# SECTION invalid pawn move backwards
+	true == pawn.isValidMove(new Move('a', 2, 'a', 4), chessBoard);
+	true == pawn.isValidMove(new Move('a', 7, 'a', 6), chessBoard);
+	false == pawn.isValidMove(new Move('a', 2, 'a', 3), chessBoard);
+
+	# SECTION invalid pawn move
+	false == pawn.isValidMove(new Move('a', 2, 'b', 3), chessBoard);
+
+
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/DiamonProblem.dir/main.cpp.o -o DiamonProblem 
