@@ -62,10 +62,10 @@ RM = /app/extra/clion/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses
+CMAKE_SOURCE_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TemplatesAndAbstractClasses.dir/depend.make
@@ -78,43 +78,58 @@ include CMakeFiles/TemplatesAndAbstractClasses.dir/flags.make
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o: CMakeFiles/TemplatesAndAbstractClasses.dir/flags.make
 CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o -c /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/main.cpp
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/main.cpp > CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/main.cpp > CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.i
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/main.cpp -o CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/main.cpp -o CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.s
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o: CMakeFiles/TemplatesAndAbstractClasses.dir/flags.make
 CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o: ../Point1D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o -c /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.cpp
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.cpp > CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.cpp > CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.i
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.cpp -o CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.cpp -o CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.s
+
+CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o: CMakeFiles/TemplatesAndAbstractClasses.dir/flags.make
+CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o: ../Point2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.cpp
+
+CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.cpp > CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.i
+
+CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.cpp -o CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.s
 
 # Object files for target TemplatesAndAbstractClasses
 TemplatesAndAbstractClasses_OBJECTS = \
 "CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o" \
-"CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o"
+"CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o" \
+"CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o"
 
 # External object files for target TemplatesAndAbstractClasses
 TemplatesAndAbstractClasses_EXTERNAL_OBJECTS =
 
 TemplatesAndAbstractClasses: CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o
 TemplatesAndAbstractClasses: CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o
+TemplatesAndAbstractClasses: CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o
 TemplatesAndAbstractClasses: CMakeFiles/TemplatesAndAbstractClasses.dir/build.make
 TemplatesAndAbstractClasses: CMakeFiles/TemplatesAndAbstractClasses.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TemplatesAndAbstractClasses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TemplatesAndAbstractClasses"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TemplatesAndAbstractClasses.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +142,6 @@ CMakeFiles/TemplatesAndAbstractClasses.dir/clean:
 .PHONY : CMakeFiles/TemplatesAndAbstractClasses.dir/clean
 
 CMakeFiles/TemplatesAndAbstractClasses.dir/depend:
-	cd /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles/TemplatesAndAbstractClasses.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles/TemplatesAndAbstractClasses.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TemplatesAndAbstractClasses.dir/depend
 

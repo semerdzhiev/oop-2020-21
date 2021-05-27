@@ -20,7 +20,7 @@ fstream
 iostream
 -
 
-/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/MyVector.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/MyVector.h
 iostream
 -
 cstdarg
@@ -28,18 +28,26 @@ cstdarg
 cstdio
 -
 
-/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.h
 Point.h
-/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point.h
 
-/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/main.cpp
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.h
+Point1D.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/main.cpp
 iostream
 -
 Point1D.h
-/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.h
+Point2D.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.h
 MyVector.h
-/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/MyVector.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/MyVector.h
 string
+-
+vector
 -
 utility
 -

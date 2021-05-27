@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TemplatesAndAbstractClasses">
-				<Option output="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/TemplatesAndAbstractClasses" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug"/>
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/TemplatesAndAbstractClasses" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Interfaces"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Interfaces"/>
 					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
@@ -54,20 +54,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemplatesAndAbstractClasses"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemplatesAndAbstractClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TemplatesAndAbstractClasses/fast">
-				<Option output="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/TemplatesAndAbstractClasses" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug"/>
+				<Option output="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/TemplatesAndAbstractClasses" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Interfaces"/>
+					<Add directory="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Interfaces"/>
 					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
@@ -77,35 +77,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemplatesAndAbstractClasses/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemplatesAndAbstractClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Interfaces/Point.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Interfaces/Point.h">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Interfaces/Printable.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Interfaces/Printable.h">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Interfaces/ToFile.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Interfaces/ToFile.h">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/MyVector.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/MyVector.h">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.cpp">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Point1D.h">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point1D.h">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/main.cpp">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.cpp">
 			<Option target="TemplatesAndAbstractClasses"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/CMakeLists.txt">
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Point2D.h">
+			<Option target="TemplatesAndAbstractClasses"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/main.cpp">
+			<Option target="TemplatesAndAbstractClasses"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

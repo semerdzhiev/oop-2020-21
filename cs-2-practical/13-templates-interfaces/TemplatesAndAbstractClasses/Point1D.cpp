@@ -4,7 +4,7 @@
 Point1D::Point1D(float x) : x(x) {}
 
 void Point1D::print(std::ostream &os) const {
-    os<<"[x]: ["<<x<<"]\n";
+    os<<x<<' ';
 }
 
 void Point1D::toFile(std::ofstream &os) const {

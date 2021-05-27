@@ -67,10 +67,10 @@ RM = /app/extra/clion/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses
+CMAKE_SOURCE_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,33 @@ Point1D.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatesAndAbstractClasses.dir/build.make CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.s
 .PHONY : Point1D.cpp.s
 
+Point2D.o: Point2D.cpp.o
+
+.PHONY : Point2D.o
+
+# target to build an object file
+Point2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatesAndAbstractClasses.dir/build.make CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o
+.PHONY : Point2D.cpp.o
+
+Point2D.i: Point2D.cpp.i
+
+.PHONY : Point2D.i
+
+# target to preprocess a source file
+Point2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatesAndAbstractClasses.dir/build.make CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.i
+.PHONY : Point2D.cpp.i
+
+Point2D.s: Point2D.cpp.s
+
+.PHONY : Point2D.s
+
+# target to generate assembly for a file
+Point2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatesAndAbstractClasses.dir/build.make CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.s
+.PHONY : Point2D.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -208,6 +235,9 @@ help:
 	@echo "... Point1D.o"
 	@echo "... Point1D.i"
 	@echo "... Point1D.s"
+	@echo "... Point2D.o"
+	@echo "... Point2D.i"
+	@echo "... Point2D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

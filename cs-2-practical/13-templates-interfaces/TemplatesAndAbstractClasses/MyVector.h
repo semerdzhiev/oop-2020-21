@@ -22,10 +22,12 @@ public:
     MyVector(MyVector<T>&& other) noexcept;
     MyVector<T>& operator=(MyVector<T>&& other) noexcept;
 
-    void push_back(T element);
+    void push_back(const T& element);
+    void push_back(T&& element);
 
     template<class... Args>
     void emplace_back(Args&&... args ) {
+        allocate(size+1);
         this->members[size++] = T(std::forward<Args>(args)...);
     }
     void pop_back();
@@ -41,12 +43,7 @@ MyVector<T>::MyVector(size_t size) {
     allocate(size);
 }
 
-template<typename T>
-void MyVector<T>::push_back(T element) {
-    allocate(size+1);
-    this-> members[size] = element;
-    this-> size++;
-}
+
 
 template<typename T>
 void MyVector<T>::pop_back() {
@@ -75,9 +72,7 @@ size_t MyVector<T>::getSize() const {
 
 template<typename T>
 MyVector<T>::~MyVector() {
-    delete[] members;
-    size = 0;
-    allocated = 0;
+    clear();
 }
 
 template<typename T>
@@ -90,15 +85,14 @@ MyVector<T>::MyVector(const MyVector<T> &other) {
 
 template<typename T>
 MyVector<T> &MyVector<T>::operator=(const MyVector<T> &other) {
-    if(this == &other) return *this;
-
-    T* newMembers = new T[other.allocated];
-    copyMember(newMembers,other.members,other.size);
-    delete[] this->members;
-    this->members = newMembers;
-    this->size = other.size;
-    this->allocated = other.allocated;
-
+    if(this != &other) {
+        T* newMembers = new T[other.allocated];
+        copyMember(newMembers,other.members,other.size);
+        delete[] this->members;
+        this->members = newMembers;
+        this->size = other.size;
+        this->allocated = other.allocated;
+    }
     return *this;
 }
 
@@ -124,14 +118,14 @@ MyVector<T> &MyVector<T>::operator=(MyVector<T> &&other) noexcept {
 
 template<typename T>
 void MyVector<T>::allocate(size_t require) {
-
     if(this->allocated < require){
-        size_t newAllocate = require * 2;
+        size_t newAllocate = allocated==0 ? 1 : allocated * 2;
         T* newMembers = new T[newAllocate];
         copyMember(newMembers,this->members,this->size);
         allocated = newAllocate;
         delete[] this->members;
         this->members = newMembers;
+        //allocate(allocated);
     }
 }
 
@@ -140,4 +134,22 @@ void MyVector<T>::copyMember(T *src, T *dst, size_t size) {
     for(size_t i = 0; i < size; i++){
         src[i] = dst[i];
     }
+}
+
+template<typename T>
+void MyVector<T>::clear() {
+    this->size = this->allocated = 0;
+    delete[] members;
+}
+
+template<typename T>
+void MyVector<T>::push_back(const T& element) {
+    allocate(size+1);
+    this-> members[size++] = element;
+}
+
+template<typename T>
+void MyVector<T>::push_back(T &&element) {
+    allocate(this->size+1);
+    this->members[size++] = std::move(element);
 }

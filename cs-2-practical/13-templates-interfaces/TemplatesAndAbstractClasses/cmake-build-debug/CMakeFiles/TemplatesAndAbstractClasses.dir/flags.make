@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/petko/workspace/FMI-Semester-6/TemplatesAndAbstractClasses/Interfaces
+CXX_INCLUDES = -I/home/petko/workspace/oop-2020-21/cs-2-practical/13-templates-interfaces/TemplatesAndAbstractClasses/Interfaces
 
 CXX_FLAGS = -g -std=gnu++2a
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TemplatesAndAbstractClasses.dir/Point1D.cpp.o"
+  "CMakeFiles/TemplatesAndAbstractClasses.dir/Point2D.cpp.o"
   "CMakeFiles/TemplatesAndAbstractClasses.dir/main.cpp.o"
   "TemplatesAndAbstractClasses"
   "TemplatesAndAbstractClasses.pdb"
