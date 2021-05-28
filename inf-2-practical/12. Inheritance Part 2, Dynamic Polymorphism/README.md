@@ -7,8 +7,8 @@
 
 ## Полиморфизъм в C++
 В C++ има 2 типа полиморфизъм 
-    - Статичен (compile-time): method **overloading**, function **overloading**, operator **overloading**, templates
-    - Динамичен (runtime): method **overriding**
+- Статичен (compile-time): method **overloading**, function **overloading**, operator **overloading**, templates
+- Динамичен (runtime): method **overriding**
 
 
 Каква е разликата между `overload` & `override`?
