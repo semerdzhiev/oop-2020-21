@@ -1,3 +1,9 @@
+//
+// This file is part of the Object-Oriented Programming 2020/21 package
+// Author: Atanas Semerdzhiev
+// URL: https://github.com/semerdzhiev/oop-2020-21
+//
+
 #include <iostream>
 #include <cassert>
 
