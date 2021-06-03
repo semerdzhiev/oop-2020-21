@@ -1,5 +1,6 @@
 # Още динамичен полиморфизъм, множествено наследяване, диамантен проблем
 
+[Запис](https://drive.google.com/file/d/1G_JutCamgu4aB8np_v1B3EPTXogG-XG8/view?usp=sharing)
 
 [Задачата от часа](https://drive.google.com/file/d/1BW-Uc80Tuliw-kHGspkO3IgflqINND1m/view?usp=sharing)
 
