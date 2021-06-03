@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Furniture.dir/main.cpp.o CMakeFiles/Furniture.dir/Sources/Furniture.cpp.o CMakeFiles/Furniture.dir/Sources/Table.cpp.o CMakeFiles/Furniture.dir/Sources/Chair.cpp.o CMakeFiles/Furniture.dir/Sources/Bed.cpp.o -o Furniture 
