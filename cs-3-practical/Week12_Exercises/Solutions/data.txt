@@ -1,0 +1,8 @@
+3
+Table 0 120 80 78 Kitchen 230 2
+Chair 1 40 40 45 Metal 34 1
+Bed 2 200 160 25 565 1
+3
+Table 0 120 80 78 Kitchen 230 4
+Chair 1 40 40 45 Metal 34 2
+Bed 2 200 160 25 565 2
