@@ -1,17 +1,30 @@
 #include <iostream>
+#include <vector>
 
 class Base
 {
 public:
     Base() { std::cout << "Base: Constructor\n"; }
     virtual ~Base() { std::cout << "Base: Destructor\n"; }
+    virtual void test() { std::cout << "base\n"; }
 };
 
 class Derived : public Base
 {
+    int *arr;
+
 public:
-    Derived() { std::cout << "Derived: Constructor\n"; }
-    ~Derived() { std::cout << "Derived: Destructor\n"; }
+    Derived()
+    {
+        arr = new int[5];
+        std::cout << "Derived: Constructor\n";
+    }
+    ~Derived()
+    {
+        delete[] arr;
+        std::cout << "Derived: Destructor\n";
+    }
+    void test() { std::cout << "der\n"; }
 };
 
 int main()
@@ -23,6 +36,7 @@ int main()
     delete derived;
     std::cout << "---------------------\n";
     Base *poly = new Derived();
+    poly->test();
     delete poly;
     return 0;
 }

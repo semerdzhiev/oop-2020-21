@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
+iostream
+-
+fstream
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Table.h
+Furniture.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Table.cpp
+../Headers/Table.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Table.h
+
