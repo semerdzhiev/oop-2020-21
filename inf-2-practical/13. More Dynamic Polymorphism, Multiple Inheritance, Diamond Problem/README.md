@@ -2,11 +2,8 @@
 
 [Запис](https://drive.google.com/file/d/1G_JutCamgu4aB8np_v1B3EPTXogG-XG8/view?usp=sharing)
 
-[Задачата от часа](https://drive.google.com/file/d/1BW-Uc80Tuliw-kHGspkO3IgflqINND1m/view?usp=sharing)
 
-[автор](https://github.com/Angeld55)
-
-Може да направите 2 задача за домашно ^.^
+Може да направите 2 задача от файла за домашно ^.^
 
 ## Копиране vs Клониране
 [A polymorphic class should suppress copying](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#c67-a-polymorphic-class-should-suppress-copying)
