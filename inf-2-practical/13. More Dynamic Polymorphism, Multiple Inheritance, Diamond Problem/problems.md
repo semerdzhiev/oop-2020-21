@@ -1,3 +1,7 @@
+[Задачата от часа](https://drive.google.com/file/d/1BW-Uc80Tuliw-kHGspkO3IgflqINND1m/view?usp=sharing), 
+[автор](https://github.com/Angeld55)
+
+
 # Задача
 Дефинирайте клас печатно издание, който се характеризира с:
 - име
