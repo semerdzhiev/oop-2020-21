@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/15-smart-pointers-iterators-tasks/iterators/MyVector.h
+iostream
+-
+cstdarg
+-
+cstdio
+-
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/15-smart-pointers-iterators-tasks/iterators/main.cpp
+iostream
+-
+vector
+-
+MyVector.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/15-smart-pointers-iterators-tasks/iterators/MyVector.h
+

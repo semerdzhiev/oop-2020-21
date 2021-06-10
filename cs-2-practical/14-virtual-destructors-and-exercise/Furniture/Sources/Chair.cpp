@@ -22,3 +22,8 @@ void Chair::toFile(std::ofstream &os) const{
 FurnitureType Chair::getType() const {
     return FurnitureType::Chair;
 }
+
+void Chair::toFileBinary(std::ostream &os) const {
+    os.write((const char*)FurnitureType::Chair,sizeof(FurnitureType));
+    os.write((const char*)(this),sizeof(Chair));
+}

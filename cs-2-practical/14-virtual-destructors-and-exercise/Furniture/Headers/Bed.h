@@ -8,5 +8,6 @@ public:
     void print(std::ostream& os) const override;
     void toFile(std::ofstream& os) const override;
     FurnitureType getType() const override;
+    void toFileBinary(std::ostream& os) const;
 };
 

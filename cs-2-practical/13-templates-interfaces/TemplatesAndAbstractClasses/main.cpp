@@ -61,5 +61,7 @@ int main() {
     delete p1;
     delete p2;
     os.close();
+    MyVector<Point2D> p;
+    p.push_back(Point2D(1,3));
     return 0;
 }

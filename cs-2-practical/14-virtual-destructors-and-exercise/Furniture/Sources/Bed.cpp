@@ -22,3 +22,8 @@ void Bed::toFile(std::ofstream &os) const {
 FurnitureType Bed::getType() const {
     return FurnitureType::Bed;
 }
+
+void Bed::toFileBinary(std::ostream &os) const {
+    os.write((const char*)FurnitureType::Bed,sizeof(FurnitureType));
+    os.write((const char*)(this),sizeof(Bed));
+}

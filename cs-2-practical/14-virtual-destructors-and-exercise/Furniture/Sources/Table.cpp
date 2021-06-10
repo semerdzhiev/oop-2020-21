@@ -21,3 +21,8 @@ void Table::toFile(std::ofstream &os) const {
 FurnitureType Table::getType() const {
     return FurnitureType::Table;
 }
+
+void Table::toFileBinary(std::ostream &os) const {
+    os.write((const char*)FurnitureType::Table,sizeof(FurnitureType));
+    os.write((const char*)(this),sizeof(Table));
+}

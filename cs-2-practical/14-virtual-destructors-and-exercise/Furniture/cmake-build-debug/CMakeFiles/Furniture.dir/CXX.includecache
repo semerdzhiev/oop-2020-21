@@ -6,17 +6,59 @@
 
 #IncludeRegexTransform: 
 
+../Headers/Bed.h
+Furniture.h
+../Headers/Furniture.h
+
+../Headers/Chair.h
+Furniture.h
+../Headers/Furniture.h
+
+../Headers/Furniture.h
+iostream
+-
+fstream
+-
+
+../Headers/MyVector.h
+iostream
+-
+cstdarg
+-
+cstdio
+-
+Furniture.h
+../Headers/Furniture.h
+
+../Headers/Table.h
+Furniture.h
+../Headers/Furniture.h
+
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Bed.h
+Furniture.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
+
 /home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
 iostream
 -
 fstream
 -
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Table.h
-Furniture.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Bed.cpp
+../Headers/Bed.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Bed.h
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Table.cpp
-../Headers/Table.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Table.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/main.cpp
+iostream
+-
+vector
+-
+Bed.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Bed.h
+Table.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Table.h
+Chair.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Chair.h
+MyVector.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/MyVector.h
 
