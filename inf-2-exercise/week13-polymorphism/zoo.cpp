@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-
+/*
 class ISounding {
 public:
     virtual void makeSound() const = 0;
@@ -114,44 +114,4 @@ public:
     ~AnimalArray() {
         clean();
     }
-};
-
-int main() {
-    //Animal a("Bobby", 5);
-    //a.makeSound();
-
-    Turtle t("Gosho", 45, 30);
-    //t.makeSound();
-
-    Fox f("Freddy", 5, Canis);
-    //f.makeSound();
-
-    /*Fox* fp = &f;
-    Fox& fr = f;
-
-    fp->makeSound();
-    fr.makeSound();
-
-    Animal* afp = &f;
-    afp->makeSound();*/
-
-    /*printAnimal(&a);
-    printAnimal(&t);
-    printAnimal(&f);*/
-
-    //Animal* df = new Fox("Gabby", 7, Canis);
-    //delete df;
-
-    AnimalArray animals;
-
-    animals.add(new Fox(f));
-    animals.add(new Turtle(t));
-    //animals.add(new Animal(a));
-    animals.add(new Turtle("Stanimir", 60, 80));
-
-    for(int i = 0; i< animals.size(); ++i) {
-        printSounding(&animals[i]);
-    }
-
-    return 0;
-}
+};*/
