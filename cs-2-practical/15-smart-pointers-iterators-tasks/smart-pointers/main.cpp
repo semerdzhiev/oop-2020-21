@@ -4,10 +4,17 @@
 struct Entity {
     explicit Entity(int a=0) : a(a) { std::cout << "Entity constructed!\n"; }
 
-    ~Entity() { std::cout << "Entity destructed\n"; }
+    Entity(const Entity& other) : a(other.a), ptr(other.ptr){
+        std::cout<<"Copy constructor a="<<a<<'\n';
+    }
+
+    ~Entity() { std::cout << "Entity destructed="<<a<<std::endl; }
 
     void print() const { std::cout << "I'm entity with a="<<a<<'\n'; }
-
+    std::shared_ptr<Entity> ptr;
+    void test() {
+        ptr = std::make_shared<Entity>(*this);
+    }
 private:
     int a = 0;
 };
@@ -47,14 +54,14 @@ public:
 
 private:
     void clean() {
-        if(ptr!= nullptr) delete ptr;
+        delete ptr;
     }
 };
 
 int main() {
     {
         std::unique_ptr<Entity> entity = std::make_unique<Entity>(6);
-        //std::unique_ptr<Entity> entity1 = entity; Cannot copy
+        //std::unique_ptr<Entity> entity1 = entity;// Cannot copy
         entity->print();
     }
 
@@ -69,6 +76,9 @@ int main() {
     }
     MySmartPointer<Entity> ptr(new Entity(2));
     ptr->print();
-
+    Entity e(9);
+//    e.ptr = std::make_shared<Entity>(88);
+//    e.ptr->print();
+    e.test();
     return 0;
 }

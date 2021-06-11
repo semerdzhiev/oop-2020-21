@@ -23,6 +23,7 @@ FurnitureType Table::getType() const {
 }
 
 void Table::toFileBinary(std::ostream &os) const {
-    os.write((const char*)FurnitureType::Table,sizeof(FurnitureType));
+    FurnitureType type = FurnitureType::Table;
+    os.write((const char*)&type,sizeof(FurnitureType));
     os.write((const char*)(this),sizeof(Table));
 }

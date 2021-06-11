@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Furniture.dir/Sources/Bed.cpp.o"
   "CMakeFiles/Furniture.dir/Sources/Chair.cpp.o"
   "CMakeFiles/Furniture.dir/Sources/Furniture.cpp.o"
-  "CMakeFiles/Furniture.dir/Sources/Repository.cpp.o"
   "CMakeFiles/Furniture.dir/Sources/Table.cpp.o"
   "CMakeFiles/Furniture.dir/main.cpp.o"
   "Furniture"

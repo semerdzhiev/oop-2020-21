@@ -4,6 +4,7 @@
 #include "Table.h"
 #include "Chair.h"
 #include "MyVector.h"
+#include "Repository.h"
 
 
 int main() {
@@ -20,5 +21,10 @@ int main() {
     for(size_t i=0;i<arr.getSize();++i) {
         arr[i]->print(std::cout);
     }
+    Repository::open("repo.bin");
+    Repository::writeVector(arr);
+    Furniture* f = Repository::read();
+    f->print(std::cout);
+    delete f;
     return 0;
 }

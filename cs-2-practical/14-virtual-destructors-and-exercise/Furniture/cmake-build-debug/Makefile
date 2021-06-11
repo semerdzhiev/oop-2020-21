@@ -223,33 +223,6 @@ Sources/Furniture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Furniture.dir/build.make CMakeFiles/Furniture.dir/Sources/Furniture.cpp.s
 .PHONY : Sources/Furniture.cpp.s
 
-Sources/Repository.o: Sources/Repository.cpp.o
-
-.PHONY : Sources/Repository.o
-
-# target to build an object file
-Sources/Repository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Furniture.dir/build.make CMakeFiles/Furniture.dir/Sources/Repository.cpp.o
-.PHONY : Sources/Repository.cpp.o
-
-Sources/Repository.i: Sources/Repository.cpp.i
-
-.PHONY : Sources/Repository.i
-
-# target to preprocess a source file
-Sources/Repository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Furniture.dir/build.make CMakeFiles/Furniture.dir/Sources/Repository.cpp.i
-.PHONY : Sources/Repository.cpp.i
-
-Sources/Repository.s: Sources/Repository.cpp.s
-
-.PHONY : Sources/Repository.s
-
-# target to generate assembly for a file
-Sources/Repository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Furniture.dir/build.make CMakeFiles/Furniture.dir/Sources/Repository.cpp.s
-.PHONY : Sources/Repository.cpp.s
-
 Sources/Table.o: Sources/Table.cpp.o
 
 .PHONY : Sources/Table.o
@@ -322,9 +295,6 @@ help:
 	@echo "... Sources/Furniture.o"
 	@echo "... Sources/Furniture.i"
 	@echo "... Sources/Furniture.s"
-	@echo "... Sources/Repository.o"
-	@echo "... Sources/Repository.i"
-	@echo "... Sources/Repository.s"
 	@echo "... Sources/Table.o"
 	@echo "... Sources/Table.i"
 	@echo "... Sources/Table.s"

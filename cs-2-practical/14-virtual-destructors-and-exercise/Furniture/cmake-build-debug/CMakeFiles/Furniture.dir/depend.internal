@@ -21,5 +21,6 @@ CMakeFiles/Furniture.dir/main.cpp.o
  ../Headers/Chair.h
  ../Headers/Furniture.h
  ../Headers/MyVector.h
+ ../Headers/Repository.h
  ../Headers/Table.h
  /home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/main.cpp

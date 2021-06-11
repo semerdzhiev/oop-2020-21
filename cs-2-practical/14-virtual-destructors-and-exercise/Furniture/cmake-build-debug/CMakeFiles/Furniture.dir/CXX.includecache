@@ -30,23 +30,23 @@ cstdio
 Furniture.h
 ../Headers/Furniture.h
 
+../Headers/Repository.h
+Furniture.h
+../Headers/Furniture.h
+Bed.h
+../Headers/Bed.h
+Chair.h
+../Headers/Chair.h
+Table.h
+../Headers/Table.h
+fstream
+-
+MyVector.h
+../Headers/MyVector.h
+
 ../Headers/Table.h
 Furniture.h
 ../Headers/Furniture.h
-
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Bed.h
-Furniture.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
-
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Furniture.h
-iostream
--
-fstream
--
-
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Bed.cpp
-../Headers/Bed.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Headers/Bed.h
 
 /home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/main.cpp
 iostream
@@ -61,4 +61,6 @@ Chair.h
 /home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Chair.h
 MyVector.h
 /home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/MyVector.h
+Repository.h
+/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Repository.h
 

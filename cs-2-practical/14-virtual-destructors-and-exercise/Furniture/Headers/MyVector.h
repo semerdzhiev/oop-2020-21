@@ -42,13 +42,6 @@ public:
     void removeFurniture(const Furniture& f);
     void removeFurniture(Furniture&& f);
 
-//    std::iterator<MyVector,T*> begin() {
-//        return members;
-//    }
-//
-//    std::iterator<MyVector,T*> end() {
-//        return &members[size-1];
-//    }
 };
 
 

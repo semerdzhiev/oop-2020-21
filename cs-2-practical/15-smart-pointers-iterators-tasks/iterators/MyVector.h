@@ -8,8 +8,8 @@ template<typename MyVector>
 class VectorIterator {
 public:
     using ValueType = typename MyVector::ValueType;
-    using PointerType = ValueType *;
-    using ReferenceType = ValueType &;
+    using PointerType = ValueType*;
+    using ReferenceType = ValueType&;
 
     explicit VectorIterator(PointerType ptr) : ptr(ptr) {}
 

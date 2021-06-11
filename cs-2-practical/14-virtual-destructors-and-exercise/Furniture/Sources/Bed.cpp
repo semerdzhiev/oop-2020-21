@@ -24,6 +24,7 @@ FurnitureType Bed::getType() const {
 }
 
 void Bed::toFileBinary(std::ostream &os) const {
-    os.write((const char*)FurnitureType::Bed,sizeof(FurnitureType));
+    FurnitureType type = FurnitureType::Bed;
+    os.write((const char*)&type,sizeof(FurnitureType::Bed));
     os.write((const char*)(this),sizeof(Bed));
 }

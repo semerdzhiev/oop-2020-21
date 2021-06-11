@@ -111,9 +111,6 @@
 		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Furniture.cpp">
 			<Option target="Furniture"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Repository.cpp">
-			<Option target="Furniture"/>
-		</Unit>
 		<Unit filename="/home/petko/workspace/oop-2020-21/cs-2-practical/14-virtual-destructors-and-exercise/Furniture/Sources/Table.cpp">
 			<Option target="Furniture"/>
 		</Unit>

@@ -9,14 +9,19 @@ int main() {
     }
     std::cout<<'\n';
 
-    MyVector<int> arr;
-    arr.emplace_back(8);arr.emplace_back(98);arr.emplace_back(75);arr.emplace_back(64);
-    for(MyVector<int>::Iterator it = arr.begin();
+    for(const auto& el : vec) {
+        std::cout<<el<<' ';
+    }
+    std::cout<<'\n';
+
+    MyVector<std::string> arr;
+    arr.emplace_back("Ivan");arr.emplace_back("Atanas");arr.emplace_back("Peter");arr.emplace_back("John");
+    for(MyVector<std::string>::Iterator it = arr.begin();
     it!=arr.end();++it) {
         std::cout<<*it<<' ';
     }
     std::cout<<'\n';
-    for(int value : arr) {
+    for(const auto& value : arr) {
         std::cout<<value<<' ';
     }
     return 0;

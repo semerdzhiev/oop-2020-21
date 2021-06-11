@@ -20,6 +20,7 @@ CMakeFiles/Furniture.dir/main.cpp.o: ../Headers/Bed.h
 CMakeFiles/Furniture.dir/main.cpp.o: ../Headers/Chair.h
 CMakeFiles/Furniture.dir/main.cpp.o: ../Headers/Furniture.h
 CMakeFiles/Furniture.dir/main.cpp.o: ../Headers/MyVector.h
+CMakeFiles/Furniture.dir/main.cpp.o: ../Headers/Repository.h
 CMakeFiles/Furniture.dir/main.cpp.o: ../Headers/Table.h
 CMakeFiles/Furniture.dir/main.cpp.o: ../main.cpp
 

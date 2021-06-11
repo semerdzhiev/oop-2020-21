@@ -24,6 +24,7 @@ FurnitureType Chair::getType() const {
 }
 
 void Chair::toFileBinary(std::ostream &os) const {
-    os.write((const char*)FurnitureType::Chair,sizeof(FurnitureType));
+    FurnitureType type = FurnitureType::Chair;
+    os.write((const char*)&type,sizeof(FurnitureType));
     os.write((const char*)(this),sizeof(Chair));
 }
