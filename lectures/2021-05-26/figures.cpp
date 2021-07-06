@@ -64,8 +64,6 @@ public:
 
 figure* create_figure()
 {
-   figure* p = nullptr;
-
    char choice;
    std::cout << "Choose a figure (c-circle, r-rectangle)\n:";
    std::cin >> choice;
@@ -147,5 +145,5 @@ int main()
    }
 
    // delete the figure
-   delete[] p;
+   delete p;
 }
